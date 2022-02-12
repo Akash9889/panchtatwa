@@ -21,7 +21,7 @@ export default function Home() {
         <div className="gradiant-image-container-wrapper">
           <div
             className="gradiant-image-container"
-            onClick={() => handleNavigation("/shri-guruji")}
+            onClick={() => handleNavigation("/journey")}
           >
             <img className="gradiant-img" src={gurujiPhoto} alt="" />
             <div

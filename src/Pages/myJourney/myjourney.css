@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+.journey-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(204, 195, 176, 1) 0%,
+    rgba(246, 246, 246, 1) 20%,
+    rgba(204, 195, 176, 1) 40%,
+    rgba(246, 246, 246, 1) 60%,
+    rgba(204, 195, 176, 1) 80%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.journey-title {
+  width: 90%;
+  margin-top: 20px;
+  font-size: 3rem;
+  text-align: left;
+  color: #cd6727;
+}
+
+.box1 {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.journey-subtitle {
+  width: 90%;
+  padding: 20px 0px;
+  font-size: 2rem;
+  text-align: left;
+  color: #cd6727;
+}
+
+.journey-image {
+  width: 100%;
+  margin-top: 10px;
+  height: 300px;
+  border-radius: 5px;
+  background-size: cover;
+  background-image: url("../../assets//images/mobile-journey.jpg");
+  box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+}
+
+.text-container {
+  text-justify: auto;
+  background: #fcfcfc;
+  color: #28231e;
+  padding: 5%;
+}
+.text-container p {
+  text-align: justify;
+  font-family: "Josefin Sans", cursive;
+}
+
+.link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #cd6727;
+}
+
+@media screen and (min-width: 60em) {
+  .journey-image {
+    width: 100%;
+    margin-top: 10px;
+    height: 600px;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url("../../assets//images/desktop-journey.jpg");
+    box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+  }
+}

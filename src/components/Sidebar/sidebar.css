@@ -1,0 +1,48 @@
+.sidebar {
+  border: 1px solid #28231e;
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: none;
+  flex-direction: column;
+  top: 2%;
+  width: 70%;
+  height: 100vh;
+  z-index: 1;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 21%,
+    rgba(204, 195, 176, 1) 100%
+  );
+  position: absolute;
+  left: 30%;
+  animation: sidebar 0.2s linear;
+}
+
+@keyframes sidebar {
+  from {
+    left: 90%;
+    opacity: 0;
+    width: 0%;
+  }
+  to {
+    left: 30%;
+    opacity: 1;
+    width: 70%;
+  }
+}
+
+.sidebar-item {
+  height: 15px;
+  font-size: 2rem;
+  padding: 20px 20px;
+  color: #404349;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 60em) {
+  .sidebar {
+    display: flex;
+  }
+}

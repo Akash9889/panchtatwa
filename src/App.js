@@ -8,6 +8,7 @@ import VastuTemple from "./Pages/vastuTemple/VastuTemple";
 import Gallery from "./Pages/gallery/Gallery";
 import ContactUs from "./Pages/contactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
+import MyJourney from "./Pages/myJourney/MyJourney";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Route path="/workshop" element={<Workshop />} />
         <Route path="/temple" element={<VastuTemple />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/journey" element={<ContactUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/journey" element={<MyJourney />} />
         <Route path="/shri-guruji" element={<ContactUs />} />
         <Route path="/mission" element={<ContactUs />} />
       </Routes>

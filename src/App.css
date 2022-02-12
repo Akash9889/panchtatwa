@@ -1,18 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
 * {
   font-size: 62.5%;
   box-sizing: border-box;
   user-select: none;
   --footer-padding: 100px;
+  font-family: "Josefin Sans", cursive;
 }
 
-@font-face {
-  font-family: myFirstFont;
-  src: url(./assets//fonts/FedraSerifA\ Bold.ttf);
-}
-
-.hide {
-  visibility: hidden;
-}
 .App-header {
   position: sticky;
   top: 0;
@@ -221,31 +215,8 @@ h1 {
 }
 p {
   font-size: 2rem;
-}
-
-.sidebar {
-  display: none;
-  flex-direction: column;
-  width: 70%;
-  height: 100vh;
-  z-index: 1;
-  background-color: #e4ded4;
-  position: absolute;
-  left: 30%;
-  animation: sidebar 0.2s linear;
-}
-
-@keyframes sidebar {
-  from {
-    left: 90%;
-    opacity: 0;
-    width: 0%;
-  }
-  to {
-    left: 30%;
-    opacity: 1;
-    width: 70%;
-  }
+  line-height: 2rem;
+  text-align: justify;
 }
 
 .close-button {
@@ -257,14 +228,6 @@ p {
   padding-right: 20px;
   cursor: pointer;
   height: 60px;
-}
-
-.sidebar-item {
-  height: 15px;
-  font-size: 2rem;
-  padding: 20px 40px;
-  color: #404349;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 80em) {

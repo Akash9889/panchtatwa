@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import SidebarMenu from "./SidebarMenu";
+import SidebarMenu from "./Sidebar/SidebarMenu";
 import TitleWithLogo from "./TitleWithLogo";
 import Line from "./Line";
 

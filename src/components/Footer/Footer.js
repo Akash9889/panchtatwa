@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.css";
 import facebook from "../../assets/images/facebook-square-brands.svg";
 import instagram from "../../assets/images/instagram-square-brands.svg";
@@ -14,13 +15,10 @@ export default function Footer() {
       <footer className="footer-main-container">
         <div className="footer-parent-container">
           <div className="page-reference">
-            <a href="#">Blogs</a>
-
-            <a href="#">Videos</a>
-
-            <a href="#">Ashram</a>
-
-            <a href="#">Courses</a>
+            <Link to="/blogs">Blogs</Link>
+            <Link to="/gallery">Videos</Link>
+            <Link to="/ashram">Ashram</Link>
+            <Link to="/courses">Courses</Link>
           </div>
           <img className="flower" src={flowerDivider} alt="" />
           <div className="contact-us-container">
