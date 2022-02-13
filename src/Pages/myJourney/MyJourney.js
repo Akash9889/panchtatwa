@@ -3,14 +3,18 @@ import "./myjourney.css";
 import { Link } from "react-router-dom";
 
 export default function MyJourney() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="journey-container">
       <span className="journey-title">Shri Guruji Manoj k Joyal</span>
 
-      <div className="box1">
+      <div className="journey-box1">
         <div className="journey-image"></div>
 
-        <div className="text-container">
+        <div className="journey-text-container">
           <span className="journey-subtitle">Self</span>
           <p>
             SriGuruji Manoj K Juyal is an erudite scholar of Vastu with
@@ -45,9 +49,9 @@ export default function MyJourney() {
           </p>
         </div>
       </div>
-      <div className="box1">
+      <div className="journey-box1">
         <div className="journey-image"></div>
-        <div className="text-container">
+        <div className="journey-text-container">
           <span className="journey-subtitle">Teacher</span>
           <p>
             Nothing gives him more happiness and fulfilment than teaching and
@@ -64,9 +68,9 @@ export default function MyJourney() {
           </p>
         </div>
       </div>
-      <div className="box1">
+      <div className="journey-box1">
         <div className="journey-image"></div>
-        <div className="text-container">
+        <div className="journey-text-container">
           <span className="journey-subtitle">Poet</span>
           <p>
             Adding to his list of virtues, one which is admired the most is his
@@ -80,9 +84,9 @@ export default function MyJourney() {
           </p>
         </div>
       </div>
-      <div className="box1">
+      <div className="journey-box1">
         <div className="journey-image"></div>
-        <div className="text-container">
+        <div className="journey-text-container">
           <span className="journey-subtitle">Author</span>
           <p>
             Another proficiency of his is the books he author. His book named

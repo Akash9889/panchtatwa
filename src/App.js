@@ -1,4 +1,7 @@
+import React from "react";
 import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./Pages/home/Home";
@@ -9,8 +12,12 @@ import Gallery from "./Pages/gallery/Gallery";
 import ContactUs from "./Pages/contactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import MyJourney from "./Pages/myJourney/MyJourney";
+import Donations from "./Pages/donations/Donations";
 
 function App() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <NavBar />
@@ -24,6 +31,7 @@ function App() {
         <Route path="/journey" element={<MyJourney />} />
         <Route path="/shri-guruji" element={<ContactUs />} />
         <Route path="/mission" element={<ContactUs />} />
+        <Route path="/donations" element={<Donations />} />
       </Routes>
       <Footer />
     </>

@@ -15,10 +15,11 @@ export default function Footer() {
       <footer className="footer-main-container">
         <div className="footer-parent-container">
           <div className="page-reference">
-            <Link to="/blogs">Blogs</Link>
-            <Link to="/gallery">Videos</Link>
             <Link to="/ashram">Ashram</Link>
-            <Link to="/courses">Courses</Link>
+            <Link to="/blogs">Blogs</Link>
+            <Link to="/courses">Books</Link>
+            <Link to="/gallery">Videos</Link>
+            <Link to="/donations">Donations</Link>
           </div>
           <img className="flower" src={flowerDivider} alt="" />
           <div className="contact-us-container">
@@ -26,7 +27,7 @@ export default function Footer() {
             <span>
               Panchtatwa - The Law of Creation
               <br /> Vatika Farms
-              <br /> Farm no-88,89,90 <br />
+              <br /> Farm no - 88, 89, 90 <br />
               Sector - 131
               <br /> Behind Jaypee Wishtown Noida (UP) - 201301
               <br />

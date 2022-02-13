@@ -9,6 +9,10 @@ import center from "../../assets/images/center.jpg";
 import rightArrow from "../../assets/images/right-arrow.svg";
 
 export default function Home() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const history = useNavigate();
   const handleNavigation = (route) => {
     history(route);
