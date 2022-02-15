@@ -4,28 +4,7 @@ import { Link } from "react-router-dom";
 import "./donations.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import annDaan1 from "../../assets/images/donations/aanDaanCover.jpg";
-import annDaan2 from "../../assets/images/donations/aanDaanInside2.jpg";
-import annDaan3 from "../../assets/images/donations/aanDaanInside3.jpg";
-import childSponserInsde1 from "../../assets/images/donations/childSponserCover.jpeg";
-import childSponserInsde2 from "../../assets/images/donations/childSponserInsde2.jpg";
-import childSponserInsde3 from "../../assets/images/donations/childSponserInsde2.jpg";
-import childSponserInsde4 from "../../assets/images/donations/childSponserInsde3.jpg";
-
-import gauDaanCover from "../../assets/images/donations/gauDaanCover.jpg";
-import gauDaanInside1 from "../../assets/images/donations/gauDaanInside1.jpg";
-import gauDaanInside2 from "../../assets/images/donations/gauDaanInside2.jpg";
-import gauDaanInside3 from "../../assets/images/donations/gauDaanInside3.jpg";
-import gauDaanInside4 from "../../assets/images/donations/gauDaanInside4.jpg";
-
-import nitiyaKarmPoojaCover from "../../assets/images/donations/nitiyaKarmPoojaCover.jpeg";
-import nitiyaKarmPoojaInside1 from "../../assets/images/donations/nitiyaKarmPoojaInside1.jpg";
-import nitiyaKarmPoojaInside2 from "../../assets/images/donations/nitiyaKarmPoojaInside2.jpg";
-
-import kanyaDaanCover from "../../assets/images/donations/kanyaDaanCover.JPG";
-import kanyaDaanInside1 from "../../assets/images/donations/kanyaDaanInside1.JPG";
-import kanyaDaanInside2 from "../../assets/images/donations/kanyaDaanInside2.JPG";
-import kanyaDaanInside3 from "../../assets/images/donations/kanyaDaanInside3.JPG";
+import { donationImages } from "../../assets/images/donations/donationImages";
 
 export default function Donations() {
   React.useEffect(() => {
@@ -38,9 +17,9 @@ export default function Donations() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    // pauseOnHover: true,
     adaptiveHeight: true,
   };
 
@@ -67,10 +46,10 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            childSponserInsde1,
-            childSponserInsde2,
-            childSponserInsde3,
-            childSponserInsde4,
+            donationImages?.childSponserInsde1,
+            donationImages?.childSponserInsde2,
+            donationImages?.childSponserInsde3,
+            donationImages?.childSponserInsde4,
           ])}
         </div>
 
@@ -95,7 +74,11 @@ export default function Donations() {
       </div>
       <div className="donations-box1">
         <div className="donations-image">
-          {renderCarousel([annDaan1, annDaan2, annDaan3])}
+          {renderCarousel([
+            donationImages?.annDaan1,
+            donationImages?.annDaan2,
+            donationImages?.annDaan3,
+          ])}
         </div>
         <div className="donations-text-container">
           <span className="donations-subtitle">
@@ -116,9 +99,9 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            nitiyaKarmPoojaCover,
-            nitiyaKarmPoojaInside1,
-            nitiyaKarmPoojaInside2,
+            donationImages?.nitiyaKarmPoojaCover,
+            donationImages?.nitiyaKarmPoojaInside1,
+            donationImages?.nitiyaKarmPoojaInside2,
           ])}
         </div>
         <div className="donations-text-container">
@@ -141,11 +124,11 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            gauDaanCover,
-            gauDaanInside1,
-            gauDaanInside2,
-            gauDaanInside3,
-            gauDaanInside4,
+            donationImages?.gauDaanCover,
+            donationImages?.gauDaanInside1,
+            donationImages?.gauDaanInside2,
+            donationImages?.gauDaanInside3,
+            donationImages?.gauDaanInside4,
           ])}
         </div>
         <div className="donations-text-container">
@@ -168,10 +151,10 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            kanyaDaanCover,
-            kanyaDaanInside1,
-            kanyaDaanInside2,
-            kanyaDaanInside3,
+            donationImages?.kanyaDaanCover,
+            donationImages?.kanyaDaanInside1,
+            donationImages?.kanyaDaanInside2,
+            donationImages?.kanyaDaanInside3,
           ])}
         </div>
         <div className="donations-text-container">
@@ -195,7 +178,11 @@ export default function Donations() {
       </div>
       <div className="donations-box1">
         <div className="donations-image">
-          {renderCarousel([annDaan1, annDaan2, annDaan3])}
+          {renderCarousel([
+            donationImages?.annDaan1,
+            donationImages?.annDaan2,
+            donationImages?.annDaan3,
+          ])}
         </div>
         <div className="donations-text-container">
           <span className="donations-subtitle">

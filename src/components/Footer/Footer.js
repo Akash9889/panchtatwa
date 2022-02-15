@@ -17,7 +17,8 @@ export default function Footer() {
           <div className="page-reference">
             <Link to="/ashram">Ashram</Link>
             <Link to="/blogs">Blogs</Link>
-            <Link to="/courses">Books</Link>
+            <Link to="/books">Books</Link>
+            <Link to="/courses">Courses</Link>
             <Link to="/gallery">Videos</Link>
             <Link to="/donations">Donations</Link>
           </div>
@@ -51,8 +52,8 @@ export default function Footer() {
         </div>
         <div className="hr" />
         <div className="copyright-text">
-          © 1999 - 2021 Isha Foundation. All Rights Reserved. | Terms and
-          Conditions | Privacy Policy
+          © 1999 - 2021 Panchtatwa. All Rights Reserved. | Terms and Conditions
+          | Privacy Policy
         </div>
       </footer>
     </>

@@ -13,6 +13,7 @@ import ContactUs from "./Pages/contactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import MyJourney from "./Pages/myJourney/MyJourney";
 import Donations from "./Pages/donations/Donations";
+import Books from "./Pages/books/Books";
 
 function App() {
   React.useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/shri-guruji" element={<ContactUs />} />
         <Route path="/mission" element={<ContactUs />} />
         <Route path="/donations" element={<Donations />} />
+        <Route path="/books" element={<Books />} />
       </Routes>
       <Footer />
     </>
