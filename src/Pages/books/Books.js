@@ -7,13 +7,14 @@ export default function Books() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const bookArray = Object.keys(booksImages);
 
   return (
     <div className="books-main-container">
       <div className="book-card-container">
-        {booksImages?.length > 0 ? (
+        {bookArray?.length > 0 ? (
           React.Children.toArray(
-            booksImages.map((book) => <BookCard book={book} />)
+            bookArray.map((book) => <BookCard book={booksImages[book]} />)
           )
         ) : (
           <></>

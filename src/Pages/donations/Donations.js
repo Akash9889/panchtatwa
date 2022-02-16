@@ -17,6 +17,7 @@ export default function Donations() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    lazyLoad: true,
     // autoplay: true,
     // autoplaySpeed: 2000,
     // pauseOnHover: true,
