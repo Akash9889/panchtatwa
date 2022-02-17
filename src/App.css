@@ -253,8 +253,7 @@ p {
   .line {
     border-bottom: 1px solid #6e665b;
     height: 0;
-    margin-left: 10px;
-    margin-top: 30px;
+    margin: 30px 10px 0px 10px;
   }
   .gradiant-container {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

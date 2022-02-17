@@ -25,6 +25,7 @@
 
 .book-card {
   width: 100%;
+  border-radius: 5px;
   background-color: #fcfcfc;
   display: flex;
   align-items: center;

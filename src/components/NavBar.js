@@ -37,9 +37,7 @@ export default function NavBar() {
       <button className="hambergur-menu" onClick={() => setOpenMenu(true)}>
         &#9776;
       </button>
-      {openMenu && (
-        <SidebarMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
-      )}
+      <SidebarMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
     </header>
   );
 }

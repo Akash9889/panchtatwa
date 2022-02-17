@@ -1,61 +1,94 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { CSSTransition } from "react-transition-group";
 import Line from "../Line";
 import "./sidebar.css";
 
 export default function SidebarMenu({ openMenu, setOpenMenu }) {
+  const [showMore, setShowMore] = useState(false);
+
+  useEffect(() => {
+    if (setOpenMenu) setShowMore(false);
+  }, [openMenu]);
+
+  const renderNavLink = (to, path) => {
+    return (
+      <NavLink
+        to={to}
+        className="sidebar-item"
+        onClick={() => setOpenMenu(false)}
+      >
+        {path}
+      </NavLink>
+    );
+  };
+
+  const renderMoreNavLink = (to, path) => {
+    return (
+      <NavLink
+        to={to}
+        className="more-menu-item"
+        onClick={() => setOpenMenu(false)}
+      >
+        {path}
+      </NavLink>
+    );
+  };
+
   return (
-    <div className={`${openMenu ? "sidebar" : "hide"}`}>
-      <button onClick={() => setOpenMenu(false)} className="close-button">
-        &#x2715;
-      </button>
-      <NavLink
-        to="/"
-        className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        Home
-      </NavLink>
-      <Line />
-      <NavLink
-        to="/about"
-        className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        About us
-      </NavLink>
-      <Line />
-      <NavLink
-        to="/workshop"
-        className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        Workshop
-      </NavLink>
-      <Line />
-      <NavLink
-        to="/temple"
-        className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        Vastu temple
-      </NavLink>
-      <Line />
-      <NavLink
-        to="/gallery"
-        className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        Gallery
-      </NavLink>
-      <Line />
-      <NavLink
-        to="/contact-us"
-        className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        Contact us
-      </NavLink>
-    </div>
+    <CSSTransition
+      in={openMenu}
+      timeout={300}
+      classNames="sidebar-transition"
+      // unmountOnExit
+      onEnter={() => setOpenMenu(true)}
+      onExited={() => setOpenMenu(false)}
+    >
+      <div className="sidebar sidebar-transition">
+        <button onClick={() => setOpenMenu(false)} className="close-button">
+          &#x2715;
+        </button>
+        {renderNavLink("/", "Home")}
+        <Line />
+        {renderNavLink("/about", "About us")}
+        <Line />
+        {renderNavLink("/workshop", "Workshop")}
+        <Line />
+        {renderNavLink("/temple", "Vastu temple")}
+        <Line />
+        {renderNavLink("/gallery", "Gallery")}
+        <Line />
+        {renderNavLink("/contact-us", "Contact us")}
+        <Line />
+        <div
+          className="more-menu-container"
+          onClick={() => setShowMore((prev) => !prev)}
+        >
+          More
+          <CSSTransition
+            in={showMore}
+            timeout={500}
+            classNames="more-menu-transition"
+            // unmountOnExit
+            onEnter={() => setShowMore(true)}
+            onExited={() => setShowMore(false)}
+          >
+            <div className="more-menu more-menu-transition">
+              {renderMoreNavLink("/ashram", "Ashram")}
+              <Line />
+              {renderMoreNavLink("/blogs", "Blogs")}
+              <Line />
+              {renderMoreNavLink("/books", "Books")}
+              <Line />
+              {renderMoreNavLink("/courses", "Courses")}
+              <Line />
+              {renderMoreNavLink("/gallery", "Videos")}
+              <Line />
+              {renderMoreNavLink("/donations", "Donations")}
+            </div>
+          </CSSTransition>
+        </div>
+      </div>
+    </CSSTransition>
   );
 }
