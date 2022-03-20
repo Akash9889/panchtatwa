@@ -8,7 +8,6 @@ export default function BookCard({ book }) {
   console.log(book.images);
   const settings = {
     dots: true,
-    lazyLoad: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

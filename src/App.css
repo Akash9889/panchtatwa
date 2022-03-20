@@ -10,18 +10,6 @@
   scroll-behavior: smooth;
 }
 
-.App-header {
-  position: sticky;
-  top: 0;
-  background-color: #e4ded4;
-  z-index: 1;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
-}
-
 .App-logo-container {
   height: 60px;
   display: flex;
@@ -35,53 +23,6 @@
 .App-heading {
   width: auto;
   padding: 10px 0px;
-}
-
-nav {
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.hambergur-menu {
-  display: none;
-  font-size: 4rem;
-  padding-right: 10px;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  position: absolute;
-  right: 10px;
-  z-index: 1;
-  transition: 0.5s;
-}
-
-.App-nav-item {
-  width: max-content;
-  font-size: 2rem;
-  color: #404349;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-}
-.App-nav-item:hover {
-  color: #f56565;
-}
-
-.active {
-  font-weight: 700;
-  cursor: default;
-}
-.active:hover {
-  color: #404349;
-}
-
-.line {
-  border-left: 1px solid #6e665b;
-  height: 75%;
-  margin-left: -3px;
-  /* top: 0; */
 }
 
 .main-container {
@@ -138,7 +79,7 @@ nav {
   cursor: pointer;
 }
 .gradiant-img {
-  width: 100%;
+  width: unset;
   height: 400px;
   object-fit: cover;
   border-radius: 5px;
@@ -183,7 +124,13 @@ nav {
     rgba(245, 212, 212, 1) 8.5%,
     rgba(252, 251, 224, 1) 90.2%
   ); */
-  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 21%,
+    rgba(204, 195, 176, 1) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,7 +139,13 @@ nav {
   clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   margin-top: -50px;
-  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 21%,
+    rgba(204, 195, 176, 1) 100%
+  );
 }
 
 .primary-image-conatiner {
@@ -240,21 +193,6 @@ p {
 }
 
 @media screen and (max-width: 60em) {
-  nav {
-    display: none;
-  }
-  .hambergur-menu {
-    display: block;
-  }
-  .sidebar {
-    display: flex;
-  }
-
-  .line {
-    border-bottom: 1px solid #6e665b;
-    height: 0;
-    margin: 30px 10px 0px 10px;
-  }
   .gradiant-container {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     margin-bottom: 40px;
@@ -274,6 +212,7 @@ p {
   }
   .gradiant-img {
     height: 400px !important;
+    width: 100%;
   }
   .center-image {
     height: 400px !important;

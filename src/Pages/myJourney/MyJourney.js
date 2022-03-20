@@ -98,7 +98,7 @@ export default function MyJourney() {
           </p>
           <p>
             There are many other books written on Jyotish & Vastu by him.
-            <Link className="link" to="/courses">
+            <Link className="link" to="/books">
               &nbsp;Know more...
             </Link>
           </p>

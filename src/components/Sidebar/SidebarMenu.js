@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
-import Line from "../Line";
+import Line from "../Line/Line";
+import MoreMenu from "../MoreMenu/MoreMenu";
 import "./sidebar.css";
 
 export default function SidebarMenu({ openMenu, setOpenMenu }) {
@@ -16,18 +17,6 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
       <NavLink
         to={to}
         className="sidebar-item"
-        onClick={() => setOpenMenu(false)}
-      >
-        {path}
-      </NavLink>
-    );
-  };
-
-  const renderMoreNavLink = (to, path) => {
-    return (
-      <NavLink
-        to={to}
-        className="more-menu-item"
         onClick={() => setOpenMenu(false)}
       >
         {path}
@@ -60,11 +49,16 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         <Line />
         {renderNavLink("/contact-us", "Contact us")}
         <Line />
-        <div
+        <MoreMenu
+          showMore={showMore}
+          setShowMore={setShowMore}
+          setOpenMenu={setOpenMenu}
+        />
+        {/* <div
           className="more-menu-container"
           onClick={() => setShowMore((prev) => !prev)}
         >
-          More
+          <span className={showMore ? "active" : ""}>More</span>
           <CSSTransition
             in={showMore}
             timeout={500}
@@ -87,7 +81,7 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
               {renderMoreNavLink("/donations", "Donations")}
             </div>
           </CSSTransition>
-        </div>
+        </div> */}
       </div>
     </CSSTransition>
   );

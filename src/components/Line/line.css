@@ -1,0 +1,13 @@
+.line {
+  border-bottom: 1px solid #6e665b;
+  height: 0;
+  margin: 30px 10px 0px 10px;
+}
+
+@media screen and (min-width: 60em) {
+  .line {
+    border-left: 1px solid #6e665b;
+    height: 75%;
+    margin: 0px;
+  }
+}

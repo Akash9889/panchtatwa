@@ -3,7 +3,7 @@ import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 import Home from "./Pages/home/Home";
 import AboutUs from "./Pages/aboutUs/AboutUs";
 import Workshop from "./Pages/workshop/Workshop";
@@ -14,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 import MyJourney from "./Pages/myJourney/MyJourney";
 import Donations from "./Pages/donations/Donations";
 import Books from "./Pages/books/Books";
+import MyPath from "./Pages/MyPath/MyPath";
 
 function App() {
   React.useEffect(() => {
@@ -30,7 +31,8 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/journey" element={<MyJourney />} />
-        <Route path="/shri-guruji" element={<ContactUs />} />
+        <Route path="/path" element={<MyPath />} />
+        {/* <Route path="/shri-guruji" element={<ContactUs />} /> */}
         <Route path="/mission" element={<ContactUs />} />
         <Route path="/donations" element={<Donations />} />
         <Route path="/books" element={<Books />} />

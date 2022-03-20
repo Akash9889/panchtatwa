@@ -3,9 +3,10 @@ import { useNavigate } from "react-router-dom";
 
 import Office from "../../assets/images/office.jpg";
 import ashram from "../../assets/images/ashramMain.jpg";
-import gurujiPhoto from "../../assets/images/gurujiPhoto.jpg";
-import left from "../../assets/images/left.jpg";
-import center from "../../assets/images/center.jpg";
+// import gurujiPhoto from "../../assets/images/gurujiPhoto.jpg";
+import myJourney from "../../assets//images/mobile-journey.jpg";
+import myDestination from "../../assets/images/myDestination.JPG";
+import myPath from "../../assets/images/myPath.jpg";
 import rightArrow from "../../assets/images/right-arrow.svg";
 
 export default function Home() {
@@ -27,7 +28,12 @@ export default function Home() {
             className="gradiant-image-container"
             onClick={() => handleNavigation("/journey")}
           >
-            <img className="gradiant-img" src={gurujiPhoto} alt="" />
+            <img
+              className="gradiant-img"
+              // style={{ width: "unset" }}
+              src={myJourney}
+              alt=""
+            />
             <div
               className="title-container"
               onClick={() => handleNavigation("/journey")}
@@ -38,11 +44,11 @@ export default function Home() {
           </div>
           <div
             className="gradiant-image-container center-image"
-            onClick={() => handleNavigation("/shri-guruji")}
+            onClick={() => handleNavigation("/path")}
           >
-            <img className="gradiant-img center-image" src={center} alt="" />
+            <img className="gradiant-img center-image" src={myPath} alt="" />
             <div className="title-container">
-              <span>Shri Guruji</span>
+              <span>Path</span>
               <img className="right-arrow" src={rightArrow} alt="right arrow" />
             </div>
           </div>
@@ -50,12 +56,12 @@ export default function Home() {
             className="gradiant-image-container"
             onClick={() => handleNavigation("/shri-guruji")}
           >
-            <img className="gradiant-img" src={left} alt="" />
+            <img className="gradiant-img" src={myDestination} alt="" />
             <div
               className="title-container"
               onClick={() => handleNavigation("/mission")}
             >
-              <span>Mission</span>
+              <span>Destination</span>
               <img className="right-arrow" src={rightArrow} alt="right arrow" />
             </div>
           </div>
