@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import Line from "../Line/Line";
-import MoreMenu from "../MoreMenu/MoreMenu";
+import MoreMenu, { Accordian } from "../MoreMenu/MoreMenu";
 import "./sidebar.css";
 
 export default function SidebarMenu({ openMenu, setOpenMenu }) {
   const [showMore, setShowMore] = useState(false);
+  const [showAccordian, setShowAccordian] = useState(false);
 
   useEffect(() => {
     if (setOpenMenu) setShowMore(false);
@@ -37,6 +38,12 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         <button onClick={() => setOpenMenu(false)} className="close-button">
           &#x2715;
         </button>
+        <Accordian
+          showAccordian={showAccordian}
+          setShowAccordian={setShowAccordian}
+          setOpenMenu={setOpenMenu}
+        />
+        <Line />
         {renderNavLink("/", "Home")}
         <Line />
         {renderNavLink("/about", "About us")}

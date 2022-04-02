@@ -14,7 +14,8 @@ import Footer from "./components/Footer/Footer";
 import MyJourney from "./Pages/myJourney/MyJourney";
 import Donations from "./Pages/donations/Donations";
 import Books from "./Pages/books/Books";
-import MyPath from "./Pages/MyPath/MyPath";
+import MyPath from "./Pages/myPath/MyPath";
+import MyDestination from "./Pages/myDestination/MyDestination";
 
 function App() {
   React.useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/journey" element={<MyJourney />} />
         <Route path="/path" element={<MyPath />} />
+        <Route path="/destination" element={<MyDestination />} />
         {/* <Route path="/shri-guruji" element={<ContactUs />} /> */}
         <Route path="/mission" element={<ContactUs />} />
         <Route path="/donations" element={<Donations />} />

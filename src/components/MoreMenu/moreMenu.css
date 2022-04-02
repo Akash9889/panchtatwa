@@ -2,6 +2,12 @@
   padding: 20px 20px;
   color: #404349;
 }
+
+/* .accordian-container {
+  padding: 20px 20px 0px 20px;
+  color: #404349;
+} */
+
 .more-menu-container span {
   font-size: 2rem;
   text-decoration: none;

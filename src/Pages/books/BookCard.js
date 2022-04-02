@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import amazonLogo from "../../assets/images/amazonLogo.png";
 
 export default function BookCard({ book }) {
-  console.log(book.images);
   const settings = {
     dots: true,
     infinite: true,

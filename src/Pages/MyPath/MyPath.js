@@ -3,6 +3,9 @@ import myPath from "../../assets/images/myPath.jpg";
 import "./mypath.css";
 
 export default function MyPath() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="path-container">
       <span className="path-title">My Path -</span>

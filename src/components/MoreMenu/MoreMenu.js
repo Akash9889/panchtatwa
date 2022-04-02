@@ -48,3 +48,50 @@ export default function MoreMenu({ showMore, setShowMore, setOpenMenu }) {
     </div>
   );
 }
+
+export function Accordian({ showAccordian, setShowAccordian, setOpenMenu }) {
+  const renderMoreNavLink = (to, path) => {
+    return (
+      <NavLink
+        to={to}
+        className="more-menu-item"
+        onClick={() => setOpenMenu(false)}
+      >
+        {path}
+      </NavLink>
+    );
+  };
+
+  return (
+    <div
+      style={{ padding: "20px 20px 0px 20px", color: "#404349" }}
+      onClick={() => setShowAccordian((prev) => !prev)}
+    >
+      <span
+        className={showAccordian ? "active" : ""}
+        style={{ fontSize: "2rem" }}
+      >
+        Sri Guruji
+      </span>
+      <CSSTransition
+        in={showAccordian}
+        timeout={500}
+        classNames="more-menu-transition"
+        unmountOnExit
+        onEnter={() => setShowAccordian(true)}
+        onExited={() => setShowAccordian(false)}
+      >
+        <div
+          className="more-menu more-menu-transition"
+          style={{ paddingBottom: "0px" }}
+        >
+          {renderMoreNavLink("/journey", "My Journey")}
+          <Line />
+          {renderMoreNavLink("/path", "My path")}
+          <Line />
+          {renderMoreNavLink("/destination", "My Destination")}
+        </div>
+      </CSSTransition>
+    </div>
+  );
+}

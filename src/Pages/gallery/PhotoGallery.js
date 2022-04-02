@@ -7,7 +7,6 @@ export default function PhotoGalleryTab() {
   const [imageOpenInPopup, setImageOpenInPopup] = useState(null);
 
   const handleClick = (image) => {
-    console.log("adsad");
     setImageOpenInPopup(image);
     setOpenPopUp(!openPopUp);
   };

@@ -1,106 +1,71 @@
 import React from "react";
-import "./myjourney.css";
-import { Link } from "react-router-dom";
+import myJourney from "../../assets/images/mobile-journey.jpg";
 
 export default function MyJourney() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
   return (
-    <div className="journey-container">
-      <span className="journey-title">Shri Guruji Manoj k Joyal</span>
-
-      <div className="journey-box1">
-        <div className="journey-image"></div>
-
-        <div className="journey-text-container">
-          <span className="journey-subtitle">Self</span>
-          <p>
-            SriGuruji Manoj K Juyal is an erudite scholar of Vastu with
-            doctorate in Astrology.
-          </p>
-          <p>
-            Upto 1991, he was a student excelling in different branches of
-            studies like Graduation, Post-Graduation, Interior Designing, French
-            Language and Translation etc.
-          </p>
-          <p>
-            After 1991, he went to an Ashram in Himalayas where he spent several
-            years with his guruji, Acharya Amlanand Shastri, imbibing vast
-            oceans of knowledge from the vedas, on Astrology, Vastu and Various
-            esoteric practices like Mantra Chikitsa, Kundalini Jagran, Chakra
-            Sadhna, Aura Reading and Spritual Healing.
-          </p>
-          <p>
-            After 1998, he came back to normal life and started his career as
-            visiting faculty of Vastu and Jyotish in various Premiere institutes
-            across India.
-          </p>
-          <p>
-            In 2004, all his disciples, students and associates joined together
-            to form the organization “Panchtatwa-The Law of Creation” which has
-            been patronized by himself. Now his individual cause has been
-            promoted by “Panchtatwa” under his able guidance.
-          </p>
-          <p>
-            Apart from his academic qualifications, our SriGuruji is a man of
-            talent and is a profound –
-          </p>
+    <div className="path-container">
+      <span className="path-title">My Journey -</span>
+      <div className="path-img-text-wrapper">
+        {" "}
+        <div className="path-img-container">
+          <img className="path-image-1" src={myJourney} alt="" />
         </div>
-      </div>
-      <div className="journey-box1">
-        <div className="journey-image"></div>
-        <div className="journey-text-container">
-          <span className="journey-subtitle">Teacher</span>
+        <div className="path-text-container">
           <p>
-            Nothing gives him more happiness and fulfilment than teaching and
-            spreading his vast knowledge among his disciples. Listening to all
-            the myths and wrongful information on everyday basis, seeing how
-            little Indians know about our own Vedas & Vedic literature, also
-            Indian heritage, his aim is to illuminate all. Panchtatwa offers
-            basic and advance courses in Astrology & Vastu. More than 500
-            students have passed out from the institute and are serving the
-            society at large.{" "}
-            <Link className="link" to="/courses">
-              &nbsp;Know more...
-            </Link>
-          </p>
-        </div>
-      </div>
-      <div className="journey-box1">
-        <div className="journey-image"></div>
-        <div className="journey-text-container">
-          <span className="journey-subtitle">Poet</span>
-          <p>
-            Adding to his list of virtues, one which is admired the most is his
-            poems. Reading them opens up doors straight to his heart and mind.
-            The in-depth meaning behind the poems gives one inspiration to look
-            within and do better for the society. From a very young age his
-            poems started publishing in renowned newspapers and magazines.
-            <Link className="link" to="/courses">
-              &nbsp;Know more...
-            </Link>
-          </p>
-        </div>
-      </div>
-      <div className="journey-box1">
-        <div className="journey-image"></div>
-        <div className="journey-text-container">
-          <span className="journey-subtitle">Author</span>
-          <p>
-            Another proficiency of his is the books he author. His book named
-            “Panchamrita” is widely circulated book. It offers Panchamrit of
-            Jyotish Jyoti, Vastu Vimarsh, Mantra Mahima, Aachar Vichar and Nitya
-            Nimitt. Once cannot do all the poojas and perform the yagna, but
-            everyday takes the panchamrit. Same way everybody can’t read Vedas,
-            Upanishads etc so this book “Panchamrita” helps.
+            My journey as a Saintist was a mixture of coincidence and destiny. I
+            had never imagined myself as confluence of a saint and a scientist
+            i.e. a Saintist. My journey started from my high school. I had opted
+            for science stream with Maths and Biology along with Sanskrit as my
+            fifth optional subject. The reason for opting Sanskrit was not due
+            to interest or passion but just to increase my overall percentage as
+            Sanskrit was considered as an easy scoring subject.
           </p>
           <p>
-            There are many other books written on Jyotish & Vastu by him.
-            <Link className="link" to="/books">
-              &nbsp;Know more...
-            </Link>
+            During my graduation, I was compelled by my only friend, who was in
+            a medical college, to take a certificate course in French from
+            Alliance Francais as his love interest was pursuing the same. He
+            wanted to visit our institute on a daily basis and so he made me the
+            scapegoat. After much persuasion, I finally accepted his request
+            thinking that a three-month certificate course would do no harm but
+            will only add to my CV. However, that three-month certificate course
+            turned into a full-fledged three-year advanced course because my
+            father announced it to everyone in the whole family that his son
+            will become the first ever French scholar from our society. Moreover
+            , I developed a keen interest in the language and did well in my
+            examinations. I won a gold medal and landed up with a job of a
+            teacher in the same institute. However, after some time I did not
+            feel satisfied with my job as it was not enrichening enough for me.
+            My only task was to teach alphabets, numbers, months, and few basic
+            words in French. Basically, it was like teaching English to
+            pre-school children except the fact that I was teaching French to
+            adults.
+          </p>
+          <p>
+            Now these coincidences of learning Sanskrit and French had to play a
+            major role in setting my destiny. Our institute got a major project
+            of translating Garun Puran from Sanskrit to French. And I was the
+            only one who was well versed in both the language. So, on that very
+            first day I became the head of the project. I was very excited
+            initially but soon realised that it is not just mere translation but
+            of understanding and interpreting the essence of Puran. I had to
+            study the content and text of this Puran. I had no idea about
+            Hinduism, Janam Maran, 84 lakhs yoni, Vaitarani , Shradh, Pind, Yam
+            Devta, Yam Doot etc . So, I got introduced to the learned sages and
+            saints. The more I read about it and understood from them, the more
+            I changed from within. I came across a plethora of deep knowledge
+            and new subjects of which I had no idea about earlier.
+          </p>
+          <p>
+            A new journey began for me. My quest to know more finally took me to
+            Kailash Mansarovar. During my long stay there, I visited the Siddha
+            Ashram. My visit there was truly the turning point of my life. My
+            life is divided into two – before Siddha Ashram and after Siddha
+            Ashram. Whatever I learnt and gained, was of such immense value that
+            I decided to spread it amongst people and make them realise the
+            importance of Vedic wisdom. This is my journey.
           </p>
         </div>
       </div>

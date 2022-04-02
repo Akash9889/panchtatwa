@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div
             className="gradiant-image-container"
-            onClick={() => handleNavigation("/shri-guruji")}
+            onClick={() => handleNavigation("/destination")}
           >
             <img className="gradiant-img" src={myDestination} alt="" />
             <div
