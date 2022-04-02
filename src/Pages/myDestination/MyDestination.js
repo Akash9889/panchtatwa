@@ -27,7 +27,7 @@ export default function MyDestination() {
             The siddha is one who has reached, who attained. My final
             destination is to transform this world of sadhaks into world of
             siddhas so that this whole world will become a siddha ashram. Khush
-            raho
+            raho.
           </p>
         </div>
       </div>
