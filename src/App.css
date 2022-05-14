@@ -13,6 +13,7 @@
 .App-logo-container {
   height: 60px;
   display: flex;
+  cursor: pointer;
 }
 
 .App-logo {

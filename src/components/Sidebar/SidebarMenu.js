@@ -2,12 +2,18 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import Line from "../Line/Line";
-import MoreMenu, { Accordian } from "../MoreMenu/MoreMenu";
+import MoreMenu, {
+  SriGurujiAccordian,
+  TeachingsAccordian,
+  EventsAccordian,
+} from "../MoreMenu/MoreMenu";
 import "./sidebar.css";
 
 export default function SidebarMenu({ openMenu, setOpenMenu }) {
   const [showMore, setShowMore] = useState(false);
-  const [showAccordian, setShowAccordian] = useState(false);
+  const [showSriGurujiAccordian, setShowSriGurujiAccordian] = useState(false);
+  const [showTeachingAccordian, setShowTeachingAccordian] = useState(false);
+  const [showEventsAccordian, setShowEventsAccordian] = useState(false);
 
   useEffect(() => {
     if (setOpenMenu) setShowMore(false);
@@ -38,13 +44,33 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         <button onClick={() => setOpenMenu(false)} className="close-button">
           &#x2715;
         </button>
-        <Accordian
-          showAccordian={showAccordian}
-          setShowAccordian={setShowAccordian}
+        <SriGurujiAccordian
+          showSriGurujiAccordian={showSriGurujiAccordian}
+          setShowSriGurujiAccordian={setShowSriGurujiAccordian}
           setOpenMenu={setOpenMenu}
         />
         <Line />
-        {renderNavLink("/", "Home")}
+        <TeachingsAccordian
+          showTeachingAccordian={showTeachingAccordian}
+          setShowTeachingAccordian={setShowTeachingAccordian}
+          setOpenMenu={setOpenMenu}
+        />
+        <Line />
+        <EventsAccordian
+          showEventsAccordian={showEventsAccordian}
+          setShowEventsAccordian={setShowEventsAccordian}
+          setOpenMenu={setOpenMenu}
+        />
+        <Line />
+        {renderNavLink("/ashram", "Ashram")}
+        <Line />
+        {renderNavLink("/media", "Media")}
+        <Line />
+        {renderNavLink("/books", "Books")}
+        <Line />
+        {renderNavLink("/temple", "Vastu temple")}
+        <Line />
+        {/* {renderNavLink("/", "Home")}
         <Line />
         {renderNavLink("/about", "About us")}
         <Line />
@@ -55,7 +81,7 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         {renderNavLink("/gallery", "Gallery")}
         <Line />
         {renderNavLink("/contact-us", "Contact us")}
-        <Line />
+        <Line /> */}
         <MoreMenu
           showMore={showMore}
           setShowMore={setShowMore}

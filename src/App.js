@@ -16,6 +16,7 @@ import Donations from "./Pages/donations/Donations";
 import Books from "./Pages/books/Books";
 import MyPath from "./Pages/myPath/MyPath";
 import MyDestination from "./Pages/myDestination/MyDestination";
+import Ashram from "./Pages/ashram/Ashram";
 
 function App() {
   React.useEffect(() => {
@@ -27,7 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/workshop" element={<Workshop />} />
+        <Route path="/workshops" element={<Workshop />} />
         <Route path="/temple" element={<VastuTemple />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
@@ -38,6 +39,7 @@ function App() {
         <Route path="/mission" element={<ContactUs />} />
         <Route path="/donations" element={<Donations />} />
         <Route path="/books" element={<Books />} />
+        <Route path="/ashram" element={<Ashram />} />
       </Routes>
       <Footer />
     </>

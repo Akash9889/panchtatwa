@@ -29,7 +29,46 @@ export default function NavBar() {
           </div>
         </div>
         <Line />
-        <NavLink to="/" className="App-nav-item">
+        <div className="dropdown">
+          <button className="dropbtn">Teachings</button>
+          <div className="dropdown-content">
+            <NavLink to="./classes" className="hover-menu-item">
+              Classes
+            </NavLink>
+            <NavLink to="./workshops" className="hover-menu-item">
+              Workshops
+            </NavLink>
+          </div>
+        </div>
+        <Line />
+        <div className="dropdown">
+          <button className="dropbtn">Events</button>
+          <div className="dropdown-content">
+            <NavLink to="./gurupurnima" className="hover-menu-item">
+              Gurupurnima
+            </NavLink>
+            <NavLink to="./diwali-milan" className="hover-menu-item">
+              Diwali Milan
+            </NavLink>
+            <NavLink to="./international-events" className="hover-menu-item">
+              International Events
+            </NavLink>
+          </div>
+        </div>
+        <Line />
+        <NavLink to="/ashram" className="App-nav-item">
+          Ashram
+        </NavLink>
+        <Line />
+        <NavLink to="/media" className="App-nav-item">
+          Media
+        </NavLink>
+        <Line />
+        <NavLink to="/books" className="App-nav-item">
+          Books
+        </NavLink>
+        <Line />
+        {/* <NavLink to="/" className="App-nav-item">
           Home
         </NavLink>
         <Line />
@@ -44,11 +83,11 @@ export default function NavBar() {
         <NavLink to="/temple" className="App-nav-item">
           Vastu temple
         </NavLink>
-        <Line />
-        <NavLink to="/gallery" className="App-nav-item">
+        <Line /> */}
+        {/* <NavLink to="/gallery" className="App-nav-item">
           Gallery
         </NavLink>
-        <Line />
+        <Line /> */}
         <NavLink to="/contact-us" className="App-nav-item">
           Contact us
         </NavLink>

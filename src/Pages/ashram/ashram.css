@@ -1,0 +1,31 @@
+.ashram-poster{
+    width:90%;
+    margin-top: 50px;
+}
+
+.ashram-carousel{
+    width:90%;
+    margin-top: 50px;
+}
+
+.carousel-image-container{
+    width:90%;
+}
+.ashram-carousel-image {
+    padding:0px !important;
+    height: 300px;
+    width:inherit;
+}
+.ashram-carousel-title{
+    font-size: 1.5rem;
+    color: #cd6727;
+}
+
+
+
+@media screen and (min-width:60em) {
+    .ashram-carousel-image {
+        width:100%;
+        padding:20px !important;
+    }
+}

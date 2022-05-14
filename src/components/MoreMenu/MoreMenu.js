@@ -49,7 +49,11 @@ export default function MoreMenu({ showMore, setShowMore, setOpenMenu }) {
   );
 }
 
-export function Accordian({ showAccordian, setShowAccordian, setOpenMenu }) {
+export function SriGurujiAccordian({
+  showSriGurujiAccordian,
+  setShowSriGurujiAccordian,
+  setOpenMenu,
+}) {
   const renderMoreNavLink = (to, path) => {
     return (
       <NavLink
@@ -65,21 +69,21 @@ export function Accordian({ showAccordian, setShowAccordian, setOpenMenu }) {
   return (
     <div
       style={{ padding: "20px 20px 0px 20px", color: "#404349" }}
-      onClick={() => setShowAccordian((prev) => !prev)}
+      onClick={() => setShowSriGurujiAccordian((prev) => !prev)}
     >
       <span
-        className={showAccordian ? "active" : ""}
+        className={showSriGurujiAccordian ? "active" : ""}
         style={{ fontSize: "2rem" }}
       >
         Sri Guruji
       </span>
       <CSSTransition
-        in={showAccordian}
+        in={showSriGurujiAccordian}
         timeout={500}
         classNames="more-menu-transition"
         unmountOnExit
-        onEnter={() => setShowAccordian(true)}
-        onExited={() => setShowAccordian(false)}
+        onEnter={() => setShowSriGurujiAccordian(true)}
+        onExited={() => setShowSriGurujiAccordian(false)}
       >
         <div
           className="more-menu more-menu-transition"
@@ -90,6 +94,106 @@ export function Accordian({ showAccordian, setShowAccordian, setOpenMenu }) {
           {renderMoreNavLink("/path", "My path")}
           <Line />
           {renderMoreNavLink("/destination", "My Destination")}
+        </div>
+      </CSSTransition>
+    </div>
+  );
+}
+
+export function TeachingsAccordian({
+  showTeachingAccordian,
+  setShowTeachingAccordian,
+  setOpenMenu,
+}) {
+  const renderMoreNavLink = (to, path) => {
+    return (
+      <NavLink
+        to={to}
+        className="more-menu-item"
+        onClick={() => setOpenMenu(false)}
+      >
+        {path}
+      </NavLink>
+    );
+  };
+
+  return (
+    <div
+      style={{ padding: "20px 20px 0px 20px", color: "#404349" }}
+      onClick={() => setShowTeachingAccordian((prev) => !prev)}
+    >
+      <span
+        className={showTeachingAccordian ? "active" : ""}
+        style={{ fontSize: "2rem" }}
+      >
+        Teachings
+      </span>
+      <CSSTransition
+        in={showTeachingAccordian}
+        timeout={500}
+        classNames="more-menu-transition"
+        unmountOnExit
+        onEnter={() => setShowTeachingAccordian(true)}
+        onExited={() => setShowTeachingAccordian(false)}
+      >
+        <div
+          className="more-menu more-menu-transition"
+          style={{ paddingBottom: "0px" }}
+        >
+          {renderMoreNavLink("/classes", "Classes")}
+          <Line />
+          {renderMoreNavLink("/workshops", "Workshops")}
+        </div>
+      </CSSTransition>
+    </div>
+  );
+}
+
+export function EventsAccordian({
+  showEventsAccordian,
+  setShowEventsAccordian,
+  setOpenMenu,
+}) {
+  const renderMoreNavLink = (to, path) => {
+    return (
+      <NavLink
+        to={to}
+        className="more-menu-item"
+        onClick={() => setOpenMenu(false)}
+      >
+        {path}
+      </NavLink>
+    );
+  };
+
+  return (
+    <div
+      style={{ padding: "20px 20px 0px 20px", color: "#404349" }}
+      onClick={() => setShowEventsAccordian((prev) => !prev)}
+    >
+      <span
+        className={showEventsAccordian ? "active" : ""}
+        style={{ fontSize: "2rem" }}
+      >
+        Events
+      </span>
+      <CSSTransition
+        in={showEventsAccordian}
+        timeout={500}
+        classNames="more-menu-transition"
+        unmountOnExit
+        onEnter={() => setShowEventsAccordian(true)}
+        onExited={() => setShowEventsAccordian(false)}
+      >
+        <div
+          className="more-menu more-menu-transition"
+          style={{ paddingBottom: "0px" }}
+        >
+          {renderMoreNavLink("/gurupurnima", "Gurupurnima")}
+          <Line />
+          {renderMoreNavLink("/diwali-milan", "Diwali Milan")}
+          <Line />
+          {renderMoreNavLink("/international-events", "International Events")}
         </div>
       </CSSTransition>
     </div>

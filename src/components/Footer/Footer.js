@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 import facebook from "../../assets/images/facebook-square-brands.svg";
 import instagram from "../../assets/images/instagram-square-brands.svg";
-import linkdein from "../../assets/images/linkedin-brands.svg";
 import twitter from "../../assets/images/twitter-square-brands.svg";
 import youtube from "../../assets/images/youtube-square-brands.svg";
 import flowerDivider from "../../assets/images/flower-divider.avif";
@@ -15,9 +14,7 @@ export default function Footer() {
       <footer className="footer-main-container">
         <div className="footer-parent-container">
           <div className="page-reference">
-            <Link to="/ashram">Ashram</Link>
             <Link to="/blogs">Blogs</Link>
-            <Link to="/books">Books</Link>
             <Link to="/courses">Courses</Link>
             <Link to="/gallery">Videos</Link>
             <Link to="/donations">Donations</Link>
@@ -42,11 +39,34 @@ export default function Footer() {
           <div className="social-media-plugins-conatiner">
             <h3>Find us on social media </h3>
             <div className="icon-container">
-              <img src={facebook} alt="Go to facebook page" />
-              <img src={youtube} alt="Go to youtube" />
-              <img src={linkdein} alt="Go to linkdein" />
-              <img src={twitter} alt="Go to twitter" />
-              <img src={instagram} alt="Go to instagram" />
+              <a
+                href="https://www.facebook.com/SriGurujiManojKJuyal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={facebook} alt="Go to facebook page" />
+              </a>
+              <a
+                href="https://youtube.com/c/SriGuruJiMANOJKJUYAL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={youtube} alt="Go to youtube" />
+              </a>
+              <a
+                href="https://twitter.com/vastumanoj?t=ccDiwsGIsLEXIH21Ui4-3w&s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={twitter} alt="Go to twitter" />
+              </a>
+              <a
+                href="https://instagram.com/srigurujimanojkjuyal?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={instagram} alt="Go to instagram" />
+              </a>
             </div>
           </div>
         </div>
