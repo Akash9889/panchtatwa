@@ -43,16 +43,13 @@ export default function DesktopMoreMenu({
          desktop-more-menu-transition"
         >
           <div className="desktop-line-link-wrapper">
-            {renderMoreNavLink("/ashram", "Ashram")}
+            {renderMoreNavLink("/media", "Media")}
           </div>
           <div className="desktop-line-link-wrapper">
             {renderMoreNavLink("/blogs", "Blogs")}
           </div>
           <div className="desktop-line-link-wrapper">
-            {renderMoreNavLink("/books", "Books")}
-          </div>
-          <div className="desktop-line-link-wrapper">
-            {renderMoreNavLink("/courses", "Courses")}
+            {renderMoreNavLink("/classes", "Classes")}
           </div>
           <div className="desktop-line-link-wrapper">
             {renderMoreNavLink("/gallery", "Videos")}

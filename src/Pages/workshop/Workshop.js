@@ -15,7 +15,7 @@ export default function MyJourney() {
       <div className="path-img-text-wrapper">
         <div className="path-text-container">
           <p className="workshop-text">
-            <b style={{ fontSize: "1.5rem" }}>SriGuruji Manoj K Juyal</b> is a
+            <b style={{ fontSize: "1.5rem" }}>Sri Guruji Manoj K Juyal</b> is a
             visiting faculty member in various premier institutes across India
             and conducts various workshops in the capital as well as in other
             cities throughout the country. The gamut of institutes with which Dr

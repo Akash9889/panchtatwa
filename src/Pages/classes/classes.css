@@ -1,0 +1,35 @@
+.classes-card {
+    width: 100%;
+    border-radius: 5px;
+    /* background-color: #fcfcfc; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+.classes-image-container {
+    width: 100%;
+    box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+    border-radius: 5px;
+}
+
+.classes-image{
+    width: "100%";
+    border-radius: 5px;
+}
+
+.classes-description-container {
+    width: 85%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .classes-description {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: justify;
+    color: #cd6727;
+    
+  }  

@@ -25,7 +25,7 @@ export default function Footer() {
             <span>
               Panchtatwa - The Law of Creation
               <br /> Vatika Farms
-              <br /> Farm no - 88, 89, 90 <br />
+              <br /> Farm no - 89, 90 <br />
               Sector - 131
               <br /> Behind Jaypee Wishtown Noida (UP) - 201301
               <br />

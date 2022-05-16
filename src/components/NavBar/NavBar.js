@@ -29,6 +29,10 @@ export default function NavBar() {
           </div>
         </div>
         <Line />
+        <NavLink to="/vastu-purush" className="App-nav-item">
+          Vastu Purush
+        </NavLink>
+        <Line />
         <div className="dropdown">
           <button className="dropbtn">Teachings</button>
           <div className="dropdown-content">
@@ -60,34 +64,10 @@ export default function NavBar() {
           Ashram
         </NavLink>
         <Line />
-        <NavLink to="/media" className="App-nav-item">
-          Media
-        </NavLink>
-        <Line />
         <NavLink to="/books" className="App-nav-item">
           Books
         </NavLink>
         <Line />
-        {/* <NavLink to="/" className="App-nav-item">
-          Home
-        </NavLink>
-        <Line />
-        <NavLink to="/about" className="App-nav-item">
-          About us
-        </NavLink>
-        <Line />
-        <NavLink to="/workshop" className="App-nav-item">
-          Workshop
-        </NavLink>
-        <Line />
-        <NavLink to="/temple" className="App-nav-item">
-          Vastu temple
-        </NavLink>
-        <Line /> */}
-        {/* <NavLink to="/gallery" className="App-nav-item">
-          Gallery
-        </NavLink>
-        <Line /> */}
         <NavLink to="/contact-us" className="App-nav-item">
           Contact us
         </NavLink>

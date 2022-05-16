@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #fcfcfc;
+  /* background: #fcfcfc; */
+  background-image: linear-gradient(to bottom, #fef9d7 0%, #fdfcfc 100%);
 }
 
 .path-title {

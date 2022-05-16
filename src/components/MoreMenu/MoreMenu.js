@@ -32,13 +32,11 @@ export default function MoreMenu({ showMore, setShowMore, setOpenMenu }) {
         onExited={() => setShowMore(false)}
       >
         <div className="more-menu more-menu-transition">
-          {renderMoreNavLink("/ashram", "Ashram")}
+          {renderMoreNavLink("/media", "Media")}
           <Line />
           {renderMoreNavLink("/blogs", "Blogs")}
           <Line />
-          {renderMoreNavLink("/books", "Books")}
-          <Line />
-          {renderMoreNavLink("/courses", "Courses")}
+          {renderMoreNavLink("/classes", "Classes")}
           <Line />
           {renderMoreNavLink("/gallery", "Videos")}
           <Line />

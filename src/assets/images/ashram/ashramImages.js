@@ -5,7 +5,7 @@ const ashramInterior2 = require("./ashramInterior2.jpeg");
 
 export const ashramGalleryImages = {
   amity: {
-    title: "Amity University",
+    title: "",
     images: [ashramInterior1, ashramInterior2, ashramMain, ashramInterior2],
   },
   // delhiSchoolOfArch: {

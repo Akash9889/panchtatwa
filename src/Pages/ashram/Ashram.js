@@ -9,7 +9,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function Carousel({ title, images, customImageStyle }) {
+export function Carousel({ title, images, customImageStyle }) {
   const settings = {
     dots: true,
     infinite: false,
@@ -152,7 +152,7 @@ export default function Ashram() {
             ashramImages.map((institute) => {
               return (
                 <Carousel
-                  //   title={ashramGalleryImages[institute].title}
+                  title={ashramGalleryImages[institute].title}
                   images={ashramGalleryImages[institute].images}
                   customImageStyle="ashram-carousel-image"
                 />
