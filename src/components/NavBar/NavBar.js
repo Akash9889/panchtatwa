@@ -51,11 +51,14 @@ export default function NavBar() {
             <NavLink to="./gurupurnima" className="hover-menu-item">
               Gurupurnima
             </NavLink>
-            <NavLink to="./diwali-milan" className="hover-menu-item">
-              Diwali Milan
-            </NavLink>
             <NavLink to="./international-events" className="hover-menu-item">
               International Events
+            </NavLink>
+            <NavLink to="./media" className="hover-menu-item">
+              Media
+            </NavLink>
+            <NavLink to="./book-launch" className="hover-menu-item">
+              Book Launch
             </NavLink>
           </div>
         </div>
@@ -67,12 +70,16 @@ export default function NavBar() {
         <NavLink to="/books" className="App-nav-item">
           Books
         </NavLink>
+
         <Line />
-        <NavLink to="/contact-us" className="App-nav-item">
-          Contact us
+        <NavLink to="/donations" className="App-nav-item">
+          Donations
         </NavLink>
         <Line />
-        <div className="navbar-more-menu-container">
+        <NavLink to="/contact-us" className="App-nav-item">
+          Contact Us
+        </NavLink>
+        {/* <div className="navbar-more-menu-container">
           <span
             className={showMore ? "active App-nav-item" : "App-nav-item"}
             onClick={() => setShowMore((prev) => !prev)}
@@ -84,7 +91,7 @@ export default function NavBar() {
             setShowMore={setShowMore}
             setOpenMenu={setOpenMenu}
           />
-        </div>
+        </div> */}
       </nav>
       <button className="hambergur-menu" onClick={() => setOpenMenu(true)}>
         &#9776;

@@ -23,30 +23,45 @@ export default function VastuPurush() {
         <div className="path-text-container">
           <p>
             <b style={{ fontSize: "1.5rem" }}>
-              Sri Guruji Manoj K Juyal constructed the world’s first Vastu
-              Purush temple at Panchtatwa’s head office New Delhi.
+              SriGuruji Manoj K Juyal constructed the world's first Vastu Purush
+              temple at Panchtatwa's head office, New Delhi.
             </b>
           </p>
           <p>
-            Vastu Purush is the omnipotent, Divine being of all construction be
-            at home offices, hotels, etc.
+            One of the story about origin of Vastu Shastra is related to the
+            birth of Vastu Purush.
           </p>
           <p>
-            Origin of Vastu shastra is related to the birth of Vastu Purusha.
+            A fierce battle between lord Shiva and demon Andhaka took place.
+            During course of battle, few drops of perspiration from lord Shiva's
+            body fell on the ground. Out of these drops emerged an horrifying
+            figure . When he walked the earth trembled, when he breathed the
+            wind blew, when he drank, the water level went down . He was the
+            manifestation of unrestrained chaotic energy. The demon needed to be
+            contained since he was threatening to wreak havoc throughout the
+            earth.
           </p>
           <p>
-            Vastu Purusha was born on Krishna Paksha, Bhadrapad masa, Tritya
-            tithi, Shanivar, Kritika Nakshtra, Vyatipat yoga, Vishti Karan,
-            during Bhadra in Kulika muhurta.
+            The terrified gods went to Brahma. Brahma told them to hold the
+            person faced down. 45 dietes pressed him down including lord Brahma
+            in the middle. He complained to Brahma about his innocence. Brahma
+            blessed him by giving him name and status of Vastu Purush, who will
+            be the presiding diety of all plots and buildings, offering wil have
+            to be made to him. If anybody failed to do so, then he may eat them.
           </p>
           <p>
-            This was the very first time the Vastu guideline was introduced in
-            ancient Indian Architecture. This is like how Indian construction
-            was born on 26th Jan 1950 that is the Indian constitution came into
-            being.
+            This is a story. The truth is once in ancient time, there was an
+            immense destructive force which was regulated and controlled by 45
+            deities I.e. engineers. There set of guidelines or regulations or by
+            laws was termed as Vastu Purush. Vastu Purush was born on Krishna
+            paksh, Bhadrapad masa, Tritya tithi, Shaniwar, Kritika Nakshatra,
+            Vyatipat yog, Vishti karan during Bhadra in Kulika muhurta. This was
+            the very first time, the vastu guidelines were introduced in ancient
+            Indian Architecture. This is like Indian constitution was born on
+            26th January 1950 I.e. Indian constitution came into being.
           </p>
           <p>
-            The beauty is that these ancient guidelines of Vastu adjust as
+            The beauty is that, these ancient guidelines of Vastu are just as
             relevant in the present.
           </p>
         </div>

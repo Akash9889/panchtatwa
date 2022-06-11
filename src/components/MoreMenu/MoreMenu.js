@@ -189,9 +189,11 @@ export function EventsAccordian({
         >
           {renderMoreNavLink("/gurupurnima", "Gurupurnima")}
           <Line />
-          {renderMoreNavLink("/diwali-milan", "Diwali Milan")}
-          <Line />
           {renderMoreNavLink("/international-events", "International Events")}
+          <Line />
+          {renderMoreNavLink("/media", "Media")}
+          <Line />
+          {renderMoreNavLink("/book-launch", "Book Launch")}
         </div>
       </CSSTransition>
     </div>

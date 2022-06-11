@@ -68,13 +68,15 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         <Line />
         {renderNavLink("/books", "Books")}
         <Line />
+        {renderNavLink("/donations", "Donations")}
+        <Line />
         {renderNavLink("/contact-us", "Contact us")}
         <Line />
-        <MoreMenu
+        {/* <MoreMenu
           showMore={showMore}
           setShowMore={setShowMore}
           setOpenMenu={setOpenMenu}
-        />
+        /> */}
       </div>
     </CSSTransition>
   );

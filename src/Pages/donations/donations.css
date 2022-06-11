@@ -70,7 +70,7 @@
   padding: 40px 5%;
 }
 .donations-text-container p {
-  text-align: justify;
+  /* text-align: justify; */
   font-family: "Josefin Sans", cursive;
 }
 

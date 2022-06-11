@@ -8,7 +8,7 @@ export default function TitleWithLogo() {
   return (
     <div className="App-logo-container" onClick={() => history("/")}>
       <img className="App-logo" src={logo} alt="" />
-      <img className="App-heading" src={title} alt="Panchtatwa" />
+      {/* <img className="App-heading" src={title} alt="Panchtatwa" /> */}
     </div>
   );
 }

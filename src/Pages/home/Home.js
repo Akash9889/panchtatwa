@@ -77,45 +77,70 @@ export default function Home() {
         <div className="primary-text-conatiner">
           <h1>AIM OF PANCHTATWA</h1>
           <p>
-            The main aim of Panchtatwa is to do research and intensive study in
-            the field of Vastu, Astrology & other Vedic subjects. The main
-            objective being the promotion of Vastu in the application of
-            Interior Designing, Architecture and Town Planning. For this our
-            effort is to include Vastu as a subject in the syllabus of Interior
-            Designing and Architecture. Vastu is called As Kosala Koscli in
-            Bali, Feng Shui in China, Bau-Biology in west, Geomancy in Egypt,
-            Vintana in Madagascar. Our aim is to bring all these sciences on one
-            platform so as to extract maximum benefits for the mankind. Vastu is
-            the science of arrangement of five elements of nature "IF WE ARE ONE
-            WITH NATURE, WE ARE ONE WITH GOD" Vastu teaches us the way to live
-            in accordance with nature. We are holding workshops, seminars, Q & A
-            sessions etc. to increase the awareness of vastu in the country.
-            Earlier in the vedic era it was a part of our lifestyle, we at
-            panchtatwa aim to give Vastu the same status in the present day
-            society. Apart from these aims and objectives we have a social and
-            cultural cause. Eashyan kone is presided over by Lord Shiva. The
-            abode of Lord Shiva is Mt. Kailash, which is at the North-east
-            corner of India. At one point of time it was very much in our
-            territory. That might have been the reason that once India was
-            called "SONE KICHIDIYA " today this region is in Tibet which is
-            under the control of China. "OUR SHIV IS NOT WITH US AND NOBODY IS
-            WITH HIM" Mt. Kailash is approximately lOOkms from Badrinath. We
-            jointly put all our efforts to include the Holy Kailash in our
-            territory.
+            The main aim of Panchtatwa is research and re-search in the fields
+            of Vastu and Vedic Astrology and the promotion of Vastu in the
+            application of Interior Designing, Architecture and Town Planning.
           </p>
+          <p>
+            We regularly organize workshops, seminars and discussions to
+            increase awareness of Vastu in the country. Indian tradition has
+            always followed the Vastu concept. However a few earlier generations
+            dismissed it as mere superstition. We have a deplorable tendency in
+            our country to not accept anything truly Indian, however beneficial,
+            until it has been accepted in the west. Now that the western world
+            and also the so-called rationalists have started believing in Vastu
+            and Astrology, we Indians have also acknowledged their efficacy.{" "}
+          </p>
+          <p>
+            Vastu is an integral part of Astrology and their science should be
+            understood and followed together to yield full benefit.{" "}
+          </p>
+          <p>
+            In the field of Astrology our aim is to establish the significance
+            of the Panchaang(Hindu Calender), divisional charts and Muhurta in
+            daily life, so that more people can accrue the benefits of good
+            planetary positions and neutralize the the ill- effects of bad
+            transitions. Muhurta is not only the auspicious time but also the
+            most practical time to start anything new. Life is a balance between
+            fate and freewill. An individual’s Lagna kundali, Yog, and Dasha :
+            present and future , is governed by fate, but to make use of good
+            transit comes under the domain of free will. This is how maximum
+            benefit can be derived from Astrology.
+          </p>
+          {/* <p>We also have a social and cultural aim.</p>
+          <p>
+            The abode of Lord Shiva is Mount Kailash which is at the North –East
+            corner of India. The north-east zone is known as the Eshanya zone,
+            the purest and holiest zone, but it is not with India. It belongs to
+            Tibet. At one point in history it was very much a part of India,
+            that is why perhaps India was known as the ‘Golden Bird’ – Sone ki
+            Chidiya in ancient times.
+          </p>
+          <p>
+            Our Guruji says in anguish: “Our Shiv is not with us and no one is
+            with him” Mt Kailash is approximately 100 kms from Badrinath. We
+            jointly aspire for the encompassment of the Holy Kailash into India.
+          </p>
+          <p>
+            Panchtatwa is associated with the Rishikul Welfare Society, Balori,
+            Srinagar, Garhwal, Uttarakhand which has built the first ever
+            Panchmukhi Hanuman Temple. The society is dedicated to extend
+            medical, educational and financial support to the surrounding
+            villages and provide shelters for destitute, orphans and aged
+            people.
+          </p> */}
         </div>
       </div>
       <div className="parent-container alternate">
         <div className="primary-text-conatiner">
           <h1>Ashram</h1>
           <p>
-            The Panchtatwa Ashram under the patronage of SriGuruji Manoj K Juyal
-            is located in the village of Balori, in the district of Pauri in
-            Uttarakhand.
-          </p>
-          <p>
-            The Ashram has a pure and divine aura created by two temples in its
-            premises: The Panchmukhi Hanuman ji temple and the Navgraha Temple.
+            On 13th April 2016, that is the Baisakhi Day, Sri Guruji Manoj K
+            Juyal started a Sanskrit school in the name of his beloved reverend
+            Sri Guruji Acharya Amlanand Shastri. Where he combines the world of
+            Eastern knowledge : Vedas, Puranas , Sanskrit language to the
+            western subjects of Science and English. The first batch of 15
+            Rishikumars has already started their journey as future Saintist.
           </p>
         </div>
         <div className="primary-image-conatiner">

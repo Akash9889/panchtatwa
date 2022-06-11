@@ -7,7 +7,7 @@
   box-sizing: border-box;
   user-select: none;
   --footer-padding: 100px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Joan', serif;
   scroll-behavior: smooth;
   word-spacing: 5px;
 }
@@ -163,13 +163,8 @@
 }
 
 .primary-image-conatiner img {
-  width: -moz-available;          /* WebKit-based browsers will ignore this. */
-  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-  width: fill-available;
-  height: -moz-available;          /* WebKit-based browsers will ignore this. */
-  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-  height: fill-available;
-  
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 .primary-text-conatiner {
@@ -194,7 +189,7 @@ h2 {
 p {
   font-size: 2rem;
   line-height: 2rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .close-button {
@@ -235,8 +230,8 @@ p {
   color: #404349;
   font-size: 2rem;
   padding-top: 20px;
-
 }
+
 .member-designation{
   color: #404349;
   font-size: 1.5rem;
@@ -306,6 +301,19 @@ p {
   .member-conatiner{
     flex-direction: column;
    }
+  .member-image-container{
+    padding-bottom: 50px;
+    width:80%;
+  }
+  .member-image{
+    width: 100%;
+  }
+  .member-name{
+    font-size: 1.5rem;
+  }
+  .member-designation{
+    font-size: 1.5rem;
+  }
 }
 
 

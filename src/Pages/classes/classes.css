@@ -29,7 +29,7 @@
   .classes-description {
     font-size: 2rem;
     font-weight: 600;
-    text-align: justify;
+    /* text-align: justify; */
     color: #cd6727;
     
   }  
