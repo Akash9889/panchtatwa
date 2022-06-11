@@ -8,6 +8,9 @@ import myJourney from "../../assets//images/mobile-journey.jpg";
 import myDestination from "../../assets/images/myDestination.JPG";
 import myPath from "../../assets/images/myPath.jpg";
 import rightArrow from "../../assets/images/right-arrow.svg";
+import Guruji from "../../assets/images/members/Guruji.jpeg";
+import Priyanka from "../../assets/images/members/Priyanka.jpeg";
+import RajeshNarainGupta from "../../assets/images/members/RajeshNarainGupta.jpg";
 
 export default function Home() {
   React.useEffect(() => {
@@ -117,6 +120,26 @@ export default function Home() {
         </div>
         <div className="primary-image-conatiner">
           <img src={ashram} alt="" />
+        </div>
+      </div>
+      <div className="gradiant-container bottom">
+        <h2 className="gradiant-heading">Members</h2>
+        <div className="member-conatiner">
+          <div className="member-image-container">
+            <img className="member-image" src={Guruji} alt="" />
+            <div className="member-name"> Sri Guruji Manoj K Juyal</div>
+            <span className="member-designation"> Patron</span>
+          </div>
+          <div className="member-image-container">
+            <img className="member-image" src={Priyanka} alt="" />
+            <div className="member-name"> Priyanka Sharma Chugh</div>
+            <span className="member-designation"> President</span>
+          </div>
+          <div className="member-image-container">
+            <img className="member-image" src={RajeshNarainGupta} alt="" />
+            <div className="member-name"> Rajesh Narain Gupta</div>
+            <span className="member-designation"> Chairmen</span>
+          </div>
         </div>
       </div>
     </main>

@@ -50,6 +50,8 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
           setOpenMenu={setOpenMenu}
         />
         <Line />
+        {renderNavLink("/vastu-purush", "Vastu Purush")}
+        <Line />
         <TeachingsAccordian
           showTeachingAccordian={showTeachingAccordian}
           setShowTeachingAccordian={setShowTeachingAccordian}
@@ -64,24 +66,10 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         <Line />
         {renderNavLink("/ashram", "Ashram")}
         <Line />
-        {renderNavLink("/media", "Media")}
-        <Line />
         {renderNavLink("/books", "Books")}
         <Line />
-        {renderNavLink("/temple", "Vastu temple")}
-        <Line />
-        {/* {renderNavLink("/", "Home")}
-        <Line />
-        {renderNavLink("/about", "About us")}
-        <Line />
-        {renderNavLink("/workshop", "Workshop")}
-        <Line />
-        {renderNavLink("/temple", "Vastu temple")}
-        <Line />
-        {renderNavLink("/gallery", "Gallery")}
-        <Line />
         {renderNavLink("/contact-us", "Contact us")}
-        <Line /> */}
+        <Line />
         <MoreMenu
           showMore={showMore}
           setShowMore={setShowMore}
