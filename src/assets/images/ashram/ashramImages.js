@@ -1,12 +1,18 @@
 export const ashramMain = require("./ashramMain.jpeg");
 export const ashramPoster = require("./ashramPoster.jpg");
-const ashramInterior1 = require("./ashramInterior1.jpeg");
-const ashramInterior2 = require("./ashramInterior2.jpeg");
+
+const AC1 = require("./AC1.jpeg");
+const AC2 = require("./AC2.jpeg");
+const AC3 = require("./AC3.jpeg");
+const AC4 = require("./AC4.jpeg");
+const AC5 = require("./AC5.jpeg");
+const AC6 = require("./AC6.jpeg");
+const AC7 = require("./AC7.jpeg");
 
 export const ashramGalleryImages = {
   amity: {
     title: "",
-    images: [ashramInterior1, ashramInterior2, ashramMain, ashramInterior2],
+    images: [AC1, AC2, AC3, AC4, AC5, AC6, AC7],
   },
   // delhiSchoolOfArch: {
   //   title: "Delhi School of Architecture and Design",

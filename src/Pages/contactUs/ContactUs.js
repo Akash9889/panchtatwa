@@ -7,8 +7,10 @@ export default function ContactUs() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="form">
-      <ContactForm />
+    <div className="contact-page-container">
+      <div className="contact-us-form">
+        <ContactForm />
+      </div>
     </div>
   );
 }

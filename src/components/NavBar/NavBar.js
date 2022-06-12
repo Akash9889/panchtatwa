@@ -46,19 +46,22 @@ export default function NavBar() {
         </div>
         <Line />
         <div className="dropdown">
-          <button className="dropbtn">Events</button>
+          <button className="dropbtn">Media</button>
           <div className="dropdown-content">
             <NavLink to="./gurupurnima" className="hover-menu-item">
               Gurupurnima
             </NavLink>
-            <NavLink to="./international-events" className="hover-menu-item">
-              International Events
+            <NavLink to="./events" className="hover-menu-item">
+              Events
             </NavLink>
-            <NavLink to="./media" className="hover-menu-item">
-              Media
+            <NavLink to="./dignitaries" className="hover-menu-item">
+              Dignitaries
             </NavLink>
             <NavLink to="./book-launch" className="hover-menu-item">
               Book Launch
+            </NavLink>
+            <NavLink to="./consultancies" className="hover-menu-item">
+              Consultancies
             </NavLink>
           </div>
         </div>

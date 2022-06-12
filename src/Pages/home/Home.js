@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import Office from "../../assets/images/office.jpg";
 import ashram from "../../assets/images/ashramMain.jpg";
-// import gurujiPhoto from "../../assets/images/gurujiPhoto.jpg";
 import myJourney from "../../assets//images/mobile-journey.jpg";
 import myDestination from "../../assets/images/myDestination.JPG";
 import myPath from "../../assets/images/myPath.jpg";
@@ -103,32 +102,10 @@ export default function Home() {
             transitions. Muhurta is not only the auspicious time but also the
             most practical time to start anything new. Life is a balance between
             fate and freewill. An individual’s Lagna kundali, Yog, and Dasha :
-            present and future , is governed by fate, but to make use of good
+            present and future, is governed by fate, but to make use of good
             transit comes under the domain of free will. This is how maximum
             benefit can be derived from Astrology.
           </p>
-          {/* <p>We also have a social and cultural aim.</p>
-          <p>
-            The abode of Lord Shiva is Mount Kailash which is at the North –East
-            corner of India. The north-east zone is known as the Eshanya zone,
-            the purest and holiest zone, but it is not with India. It belongs to
-            Tibet. At one point in history it was very much a part of India,
-            that is why perhaps India was known as the ‘Golden Bird’ – Sone ki
-            Chidiya in ancient times.
-          </p>
-          <p>
-            Our Guruji says in anguish: “Our Shiv is not with us and no one is
-            with him” Mt Kailash is approximately 100 kms from Badrinath. We
-            jointly aspire for the encompassment of the Holy Kailash into India.
-          </p>
-          <p>
-            Panchtatwa is associated with the Rishikul Welfare Society, Balori,
-            Srinagar, Garhwal, Uttarakhand which has built the first ever
-            Panchmukhi Hanuman Temple. The society is dedicated to extend
-            medical, educational and financial support to the surrounding
-            villages and provide shelters for destitute, orphans and aged
-            people.
-          </p> */}
         </div>
       </div>
       <div className="parent-container alternate">
@@ -148,22 +125,21 @@ export default function Home() {
         </div>
       </div>
       <div className="gradiant-container bottom">
-        <h2 className="gradiant-heading">Members</h2>
         <div className="member-conatiner">
           <div className="member-image-container">
             <img className="member-image" src={Guruji} alt="" />
-            <div className="member-name"> Sri Guruji Manoj K Juyal</div>
-            <span className="member-designation"> Patron</span>
+            <div className="member-name">Sri Guruji Manoj K Juyal</div>
+            <span className="member-designation">Patron</span>
           </div>
           <div className="member-image-container">
             <img className="member-image" src={Priyanka} alt="" />
-            <div className="member-name"> Priyanka Sharma Chugh</div>
-            <span className="member-designation"> President</span>
+            <div className="member-name">Priyanka Sharma Chugh</div>
+            <span className="member-designation">President</span>
           </div>
           <div className="member-image-container">
             <img className="member-image" src={RajeshNarainGupta} alt="" />
-            <div className="member-name"> Rajesh Narain Gupta</div>
-            <span className="member-designation"> Chairmen</span>
+            <div className="member-name">Rajesh Narain Gupta</div>
+            <span className="member-designation">Chairmen</span>
           </div>
         </div>
       </div>

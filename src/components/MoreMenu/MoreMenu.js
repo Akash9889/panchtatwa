@@ -173,7 +173,7 @@ export function EventsAccordian({
         className={showEventsAccordian ? "active" : ""}
         style={{ fontSize: "2rem" }}
       >
-        Events
+        Media
       </span>
       <CSSTransition
         in={showEventsAccordian}
@@ -189,11 +189,13 @@ export function EventsAccordian({
         >
           {renderMoreNavLink("/gurupurnima", "Gurupurnima")}
           <Line />
-          {renderMoreNavLink("/international-events", "International Events")}
+          {renderMoreNavLink("/events", "Events")}
           <Line />
-          {renderMoreNavLink("/media", "Media")}
+          {renderMoreNavLink("/dignitaries", "Dignitaries")}
           <Line />
           {renderMoreNavLink("/book-launch", "Book Launch")}
+          <Line />
+          {renderMoreNavLink("/consultancies", " Consultancies")}
         </div>
       </CSSTransition>
     </div>

@@ -146,7 +146,7 @@ export default function Ashram() {
       <img className="ashram-poster" src={ashramPoster} alt="" />
 
       <div className="ashram-carousel">
-        <h3 className="ashram-carousel-title">Image Carousel</h3>
+        {/* <h3 className="ashram-carousel-title">Image Carousel</h3> */}
         {React.Children.toArray(
           ashramImages?.length &&
             ashramImages.map((institute) => {

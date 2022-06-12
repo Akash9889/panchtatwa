@@ -7,7 +7,6 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./Pages/home/Home";
 import AboutUs from "./Pages/aboutUs/AboutUs";
 import Workshop from "./Pages/workshop/Workshop";
-// import VastuTemple from "./Pages/vastuTemple/VastuTemple";
 import Gallery from "./Pages/gallery/Gallery";
 import ContactUs from "./Pages/contactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
@@ -19,6 +18,8 @@ import MyDestination from "./Pages/myDestination/MyDestination";
 import Ashram from "./Pages/ashram/Ashram";
 import VastuPurush from "./Pages/vastuPurush/VastuPurush";
 import Classes from "./Pages/classes/Classes";
+import Events from "./Pages/events/Events";
+import Consultancies from "./Pages/consultancies/consultancies";
 
 function App() {
   React.useEffect(() => {
@@ -42,6 +43,8 @@ function App() {
         <Route path="/ashram" element={<Ashram />} />
         <Route path="/vastu-purush" element={<VastuPurush />} />
         <Route path="/classes" element={<Classes />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/consultancies" element={<Consultancies />} />
       </Routes>
       <Footer />
     </>
