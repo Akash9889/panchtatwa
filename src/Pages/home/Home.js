@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </div>
       <div className="parent-container">
-        <div className="primary-image-conatiner ">
+        <div className="primary-image-conatiner">
           <img src={Office} alt="" />
         </div>
         <div className="primary-text-conatiner">
