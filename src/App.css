@@ -163,10 +163,10 @@
 }
 
 .primary-image-conatiner img {
-  width: fill-available;
+  /* width: fill-available; */
   width: -webkit-fill-available;
-  height: fill-available;
-  height: -webkit-fill-available;
+  /* height: fill-available;
+  height: -webkit-fill-available; */
 }
 
 .primary-text-conatiner {
