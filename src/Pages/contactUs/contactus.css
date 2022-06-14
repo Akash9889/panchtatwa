@@ -1,11 +1,17 @@
 .contact-page-container{
   width: 100%;
   padding: 50px 0;
-  
+  background-image: linear-gradient(to bottom, #fef9d7 0%, #fdfcfc 100%);
 }
 
 .contact-us-form {
-  width: 50%;
+  width: 100%;
   padding: 50px 0;
-  background-image: linear-gradient(to bottom, #fef9d7 0%, #fdfcfc 100%);
+  
+}
+
+@media screen and (min-width: 60em) {
+  .contact-us-form {
+    width: 50%;
+  }
 }
