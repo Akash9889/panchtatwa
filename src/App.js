@@ -20,6 +20,8 @@ import VastuPurush from "./Pages/vastuPurush/VastuPurush";
 import Classes from "./Pages/classes/Classes";
 import Events from "./Pages/events/Events";
 import Consultancies from "./Pages/consultancies/consultancies";
+import Dignitaries from "./Pages/dignitaries/Dignitaries";
+import BookLaunch from "./Pages/bookLaunch/BookLaunch";
 
 function App() {
   React.useEffect(() => {
@@ -45,6 +47,8 @@ function App() {
         <Route path="/classes" element={<Classes />} />
         <Route path="/events" element={<Events />} />
         <Route path="/consultancies" element={<Consultancies />} />
+        <Route path="/dignitaries" element={<Dignitaries />} />
+        <Route path="/book-launch" element={<BookLaunch />} />
       </Routes>
       <Footer />
     </>

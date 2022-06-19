@@ -53,7 +53,7 @@ export default function MyPath() {
             offices are operational in:
           </p>
           <p>
-            Sanik Farms, Nizamuddin East, Munirka, Krishna Nagar, Noida,
+            Sainik Farms, Nizamuddin East, Munirka, Krishna Nagar, Noida,
             Gurgaon, Faridabad, Jhansi, Saharanpur, Muzaffarnagar.
           </p>
           <p>

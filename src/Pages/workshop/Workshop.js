@@ -7,7 +7,7 @@ import {
   nbtArticles,
 } from "../../assets/images/workShops/workShopImages";
 
-function WorkshopCard({ title, images, customImageStyle }) {
+export function WorkshopCard({ title, images, customImageStyle }) {
   return (
     <>
       {React.Children.toArray(

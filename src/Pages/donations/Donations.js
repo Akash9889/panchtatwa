@@ -47,7 +47,6 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            donationImages?.childSponserInsde1,
             donationImages?.childSponserInsde2,
             donationImages?.childSponserInsde3,
             donationImages?.childSponserInsde4,
@@ -76,8 +75,8 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            donationImages?.annDaan1,
-            donationImages?.annDaan2,
+            // donationImages?.annDaan1,
+            // donationImages?.annDaan2,
             donationImages?.annDaan3,
           ])}
         </div>
@@ -180,9 +179,8 @@ export default function Donations() {
       <div className="donations-box1">
         <div className="donations-image">
           {renderCarousel([
-            donationImages?.annDaan1,
-            donationImages?.annDaan2,
-            donationImages?.annDaan3,
+            donationImages?.extraDonation1,
+            donationImages?.extraDonation2,
           ])}
         </div>
         <div className="donations-text-container">
