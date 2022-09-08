@@ -38,8 +38,8 @@ export default function Classes() {
       <div className="book-card-container">
         {classesArray?.length > 0 ? (
           React.Children.toArray(
-            classesArray.map((cls) => (
-              <ClassesCard course={classesImages[cls]} />
+            classesArray.map((cls, index) => (
+              <ClassesCard key={index} course={classesImages[cls]} />
             ))
           )
         ) : (

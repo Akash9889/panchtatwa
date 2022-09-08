@@ -28,8 +28,8 @@ export default function Donations() {
     return (
       <Slider {...settings}>
         {React.Children.toArray(
-          images.map((image) => (
-            <div>
+          images.map((image, index) => (
+            <div key={index}>
               <div
                 className="donations-image"
                 style={{ backgroundImage: `url(${image})` }}

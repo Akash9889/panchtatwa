@@ -59,9 +59,9 @@ export function Carousel({ title, images, customImageStyle }) {
     return (
       <Slider {...settings}>
         {React.Children.toArray(
-          images?.map((image) => {
+          images?.map((image, index) => {
             return (
-              <div className="carousel-image-container">
+              <div className="carousel-image-container" key={index}>
                 <img
                   className={
                     customImageStyle ? customImageStyle : "card-image-1"
@@ -146,12 +146,12 @@ export default function Ashram() {
       <img className="ashram-poster" src={ashramPoster} alt="" />
 
       <div className="ashram-carousel">
-        {/* <h3 className="ashram-carousel-title">Image Carousel</h3> */}
         {React.Children.toArray(
           ashramImages?.length &&
-            ashramImages.map((institute) => {
+            ashramImages.map((institute, index) => {
               return (
                 <Carousel
+                  key={index}
                   title={ashramGalleryImages[institute].title}
                   images={ashramGalleryImages[institute].images}
                   customImageStyle="ashram-carousel-image"

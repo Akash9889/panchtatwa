@@ -28,11 +28,6 @@ const book7Content2 = require("./7content2.jpg");
 const book7Content3 = require("./7content3.jpg");
 const book7Back = require("./7back.jpg");
 
-const book8Cover = require("./8cover.jpg");
-const book8Content1 = require("./8content1.jpg");
-const book8Content2 = require("./8content2.jpg");
-const book8Back = require("./8back.jpg");
-
 const book9Cover = require("./9cover.jpg");
 const book9Content1 = require("./9content1.jpg");
 const book9Content2 = require("./9content2.jpg");
@@ -93,11 +88,6 @@ export const booksImages = {
     buyLink:
       "https://www.amazon.in/dp/B07W9BDLV9/ref=cm_sw_r_wa_api_glt_i_1Z9SESNN09FZGR53Y9BJ",
   },
-  // book8: {
-  //   images: [book8Cover, book8Content1, book8Content2, book8Back],
-  //   description: `Vastu Shastra, an important limb of jyotish or astrology, is an ancient science and study of architecture and engineering. The purpose of this book is to revive the lost glory of Vastu and show its relevance in modern times. The book covers different aspect of construction like selectiong a site, planning and processes of construction, interior, planning and execution. It underline role of Jyotish in Vastu principals. Vastu is a holistic science, which is in full conformity with the entire cosmos and the flow of energy from all sources. It goes into the details from determining the time for the commencement of worship of land "Bhumi Pooja" and all stages of construction to the entire building.`,
-  //   buyLink: "https://www.amazon.in/Vastu-DNA-Alkesh-Gupta/dp/B082HM3TGY",
-  // },
   gadavaliMedical: {
     images: [book9Cover, book9Content1, book9Content2, book9Back],
     description:

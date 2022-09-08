@@ -46,13 +46,7 @@ export default function DesktopMoreMenu({
             {renderMoreNavLink("/media", "Media")}
           </div>
           <div className="desktop-line-link-wrapper">
-            {renderMoreNavLink("/blogs", "Blogs")}
-          </div>
-          <div className="desktop-line-link-wrapper">
             {renderMoreNavLink("/classes", "Classes")}
-          </div>
-          <div className="desktop-line-link-wrapper">
-            {renderMoreNavLink("/gallery", "Videos")}
           </div>
           <div className="desktop-line-link-wrapper">
             {renderMoreNavLink("/donations", "Donations")}

@@ -71,7 +71,7 @@ export function SriGurujiAccordian({
     >
       <span
         className={showSriGurujiAccordian ? "active" : ""}
-        style={{ fontSize: "2rem" }}
+        style={{ fontSize: "2rem", cursor: "pointer" }}
       >
         Sri Guruji
       </span>
@@ -122,7 +122,7 @@ export function TeachingsAccordian({
     >
       <span
         className={showTeachingAccordian ? "active" : ""}
-        style={{ fontSize: "2rem" }}
+        style={{ fontSize: "2rem", cursor: "pointer" }}
       >
         Teachings
       </span>
@@ -171,7 +171,7 @@ export function EventsAccordian({
     >
       <span
         className={showEventsAccordian ? "active" : ""}
-        style={{ fontSize: "2rem" }}
+        style={{ fontSize: "2rem", cursor: "pointer" }}
       >
         Media
       </span>

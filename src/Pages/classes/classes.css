@@ -1,7 +1,6 @@
 .classes-card {
     width: 100%;
     border-radius: 5px;
-    /* background-color: #fcfcfc; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -29,7 +28,6 @@
   .classes-description {
     font-size: 2rem;
     font-weight: 600;
-    /* text-align: justify; */
     color: #cd6727;
     
   }  

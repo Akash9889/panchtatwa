@@ -43,9 +43,9 @@ export default function Card({ title, images, customImageStyle }) {
     return (
       <Slider {...settings}>
         {React.Children.toArray(
-          images?.map((image) => {
+          images?.map((image, index) => {
             return (
-              <div>
+              <div key={index}>
                 <img
                   className={
                     customImageStyle ? customImageStyle : "card-image-1"

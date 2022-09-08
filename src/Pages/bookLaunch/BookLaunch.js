@@ -9,15 +9,13 @@ export default function BookLaunch() {
       <span className="path-title">Authored Books -</span>
       <div className="path-img-text-wrapper">
         <div className="path-text-container">
-          {/* <p className="workshop-text">
-            <b style={{ fontSize: "1.5rem" }}>Authored Books</b>
-          </p> */}
           <div className="workshop-card-container">
             {React.Children.toArray(
               bookLaunchArray?.length &&
-                bookLaunchArray.map((institute) => {
+                bookLaunchArray.map((institute, index) => {
                   return (
                     <WorkshopCard
+                      key={index}
                       title={blImages[institute].title}
                       images={blImages[institute].images}
                     />

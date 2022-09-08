@@ -4,6 +4,7 @@ const jyotishAlankar = require("./jyotishAlankar.jpeg");
 const medicalAstrology = require("./medicalAstrology.jpg");
 const prashan = require("./prashan.jpg");
 const jemini = require("./jemini.jpg");
+const vaidikVimarsh = require("./vaidikVimarsh.jpeg");
 
 export const classesImages = {
   basicVastu: {
@@ -29,5 +30,9 @@ export const classesImages = {
   jemini: {
     title: "Jemini Astrology",
     image: jemini,
+  },
+  vedic: {
+    title: "Vedic Vimarsh",
+    image: vaidikVimarsh,
   },
 };

@@ -5,7 +5,10 @@
   align-items: center;
   flex-direction: column;
   background: #fcfcfc;
-  /* background-image: linear-gradient(to bottom, #fef9d7 0%, #fdfcfc 100%); */
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 .path-title {

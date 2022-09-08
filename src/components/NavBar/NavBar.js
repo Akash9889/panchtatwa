@@ -4,11 +4,9 @@ import SidebarMenu from "../Sidebar/SidebarMenu";
 import TitleWithLogo from "../TitleWithLogo";
 import Line from "../Line/Line";
 import "./navbar.css";
-import DesktopMoreMenu from "./MoreMenu.Desktop";
 
 export default function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
-  const [showMore, setShowMore] = useState(false);
 
   return (
     <header className="App-header">
@@ -82,19 +80,6 @@ export default function NavBar() {
         <NavLink to="/contact-us" className="App-nav-item">
           Contact Us
         </NavLink>
-        {/* <div className="navbar-more-menu-container">
-          <span
-            className={showMore ? "active App-nav-item" : "App-nav-item"}
-            onClick={() => setShowMore((prev) => !prev)}
-          >
-            More
-          </span>
-          <DesktopMoreMenu
-            showMore={showMore}
-            setShowMore={setShowMore}
-            setOpenMenu={setOpenMenu}
-          />
-        </div> */}
       </nav>
       <button className="hambergur-menu" onClick={() => setOpenMenu(true)}>
         &#9776;

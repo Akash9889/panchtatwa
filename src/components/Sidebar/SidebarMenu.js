@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import Line from "../Line/Line";
-import MoreMenu, {
+import {
   SriGurujiAccordian,
   TeachingsAccordian,
   EventsAccordian,
@@ -36,7 +36,6 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
       in={openMenu}
       timeout={300}
       classNames="sidebar-transition"
-      // unmountOnExit
       onEnter={() => setOpenMenu(true)}
       onExited={() => setOpenMenu(false)}
     >
@@ -72,11 +71,6 @@ export default function SidebarMenu({ openMenu, setOpenMenu }) {
         <Line />
         {renderNavLink("/contact-us", "Contact us")}
         <Line />
-        {/* <MoreMenu
-          showMore={showMore}
-          setShowMore={setShowMore}
-          setOpenMenu={setOpenMenu}
-        /> */}
       </div>
     </CSSTransition>
   );

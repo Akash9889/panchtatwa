@@ -129,12 +129,6 @@
   margin: 20px;
   clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
   -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
-  /* background-image: linear-gradient(
-    92.7deg,
-    rgba(245, 212, 212, 1) 8.5%,
-    rgba(252, 251, 224, 1) 90.2%
-  ); */
-  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1) 0%,
@@ -149,7 +143,6 @@
   clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   margin-top: -50px;
-  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1) 0%,
@@ -188,7 +181,6 @@ h2 {
 p {
   font-size: 2rem;
   line-height: 2rem;
-  /* text-align: justify; */
 }
 
 .close-button {
@@ -316,16 +308,3 @@ p {
   }
 }
 
-
-/* .App-link {
-  color: #61dafb;
-} */
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

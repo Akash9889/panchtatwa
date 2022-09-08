@@ -11,9 +11,9 @@ export function WorkshopCard({ title, images, customImageStyle }) {
   return (
     <>
       {React.Children.toArray(
-        images?.map((image) => {
+        images?.map((image, index) => {
           return (
-            <div className="workshop-card">
+            <div key={index} className="workshop-card">
               <div className="workshop-title">{title}</div>
               <img
                 className="workshop-image"
@@ -48,9 +48,10 @@ export default function MyJourney() {
           <div className="workshop-card-container">
             {React.Children.toArray(
               institutesArray?.length &&
-                institutesArray.map((institute) => {
+                institutesArray.map((institute, index) => {
                   return (
                     <WorkshopCard
+                      key={index}
                       title={institutesImages[institute].title}
                       images={institutesImages[institute].images}
                     />
@@ -75,8 +76,13 @@ export default function MyJourney() {
           <div className="nbt-articles-container">
             {nbtArticles &&
               nbtArticles.length &&
-              nbtArticles.map((article) => (
-                <img className="nbt-articles-image" src={article} alt="" />
+              nbtArticles.map((article, index) => (
+                <img
+                  key={index}
+                  className="nbt-articles-image"
+                  src={article}
+                  alt=""
+                />
               ))}
           </div>
         </div>

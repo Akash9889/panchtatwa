@@ -1,7 +1,6 @@
 .contact-page-container{
   width: 100%;
   padding: 50px 0;
-  /* background-image: linear-gradient(to bottom, #fef9d7 0%, #fdfcfc 100%); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,10 +14,6 @@
   font-size: 2rem;
   text-align: left;
   color: #cd6727;
-}
-
-.address-form-container{
-  
 }
 
 .address-container{
@@ -93,6 +88,7 @@
 
 @media screen and (min-width: 60em) {
   .address-form-container{
+    display: flex;
     flex-direction: row;
     width:90%;
   }

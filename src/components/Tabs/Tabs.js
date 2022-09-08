@@ -20,8 +20,9 @@ export default function Tabs({ activeButton, setActiveButton }) {
   return (
     <div className="tabs-container">
       {React.Children.toArray(
-        tabs.map((tab) => (
+        tabs.map((tab, index) => (
           <button
+            key={index}
             className={`tabs-button ${
               activeButton === tab.id ? "active-tab" : ""
             }`}

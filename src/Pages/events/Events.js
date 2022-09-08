@@ -8,9 +8,10 @@ function EventsBox({ title, images, customImageStyle }) {
       <div className="event-title">{title}</div>
       <div className="event-images-container">
         {React.Children.toArray(
-          images?.map((image) => {
+          images?.map((image, index) => {
             return (
               <img
+                key={index}
                 className="event-images"
                 src={image}
                 alt={`${title} workshop`}
@@ -27,12 +28,12 @@ export default function Events() {
   const eventsArray = Object.keys(eventsImages);
   return (
     <div className="events-container">
-      {/* <p className="events-title"> </p> */}
       {React.Children.toArray(
         eventsArray?.length &&
-          eventsArray.map((institute) => {
+          eventsArray.map((institute, index) => {
             return (
               <EventsBox
+                key={index}
                 title={eventsImages[institute].title}
                 images={eventsImages[institute].images}
               />

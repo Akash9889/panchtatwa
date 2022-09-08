@@ -7,7 +7,6 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./Pages/home/Home";
 import AboutUs from "./Pages/aboutUs/AboutUs";
 import Workshop from "./Pages/workshop/Workshop";
-import Gallery from "./Pages/gallery/Gallery";
 import ContactUs from "./Pages/contactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import MyJourney from "./Pages/myJourney/MyJourney";
@@ -22,6 +21,7 @@ import Events from "./Pages/events/Events";
 import Consultancies from "./Pages/consultancies/consultancies";
 import Dignitaries from "./Pages/dignitaries/Dignitaries";
 import BookLaunch from "./Pages/bookLaunch/BookLaunch";
+import Gurupurnima from "./Pages/gurupurnima/Gurupurnima";
 
 function App() {
   React.useEffect(() => {
@@ -34,7 +34,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/workshops" element={<Workshop />} />
-        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/journey" element={<MyJourney />} />
         <Route path="/path" element={<MyPath />} />
@@ -49,6 +48,7 @@ function App() {
         <Route path="/consultancies" element={<Consultancies />} />
         <Route path="/dignitaries" element={<Dignitaries />} />
         <Route path="/book-launch" element={<BookLaunch />} />
+        <Route path="/gurupurnima" element={<Gurupurnima />} />
       </Routes>
       <Footer />
     </>

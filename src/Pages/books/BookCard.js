@@ -17,8 +17,8 @@ export default function BookCard({ book }) {
     return (
       <Slider {...settings}>
         {React.Children.toArray(
-          book?.images?.map((image) => (
-            <div>
+          book?.images?.map((image, index) => (
+            <div key={index}>
               <img style={{ height: "300px" }} src={image} alt="" />
             </div>
           ))

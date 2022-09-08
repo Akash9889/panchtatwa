@@ -80,11 +80,6 @@ nav {
   width: 40%;
   text-align: center;
 }
-/* .desktop-more-menu div .line {
-  margin: 10px 0px;
-  height: 0;
-} */
-
 .desktop-more-menu-item {
   font-size: 1.5rem;
   padding: 5px 0px 5px 0px;
@@ -144,11 +139,6 @@ nav {
 
   .hambergur-menu {
     display: none;
-  }
-
-  .dropdown {
-    /* float: left;
-    overflow: hidden; */
   }
 
   .dropdown .dropbtn {

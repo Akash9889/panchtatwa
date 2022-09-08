@@ -14,17 +14,13 @@ export default function Dignitaries() {
       <span className="path-title">Dignitaries -</span>
       <div className="path-img-text-wrapper">
         <div className="path-text-container">
-          {/* <p className="workshop-text">
-            <b style={{ fontSize: "1.5rem" }}>Sri Guruji Manoj K Juyal</b> is a
-            visiting faculty member in various premier institutes and
-            universities across India.
-          </p> */}
           <div className="workshop-card-container">
             {React.Children.toArray(
               dignitariesArray?.length &&
-                dignitariesArray.map((institute) => {
+                dignitariesArray.map((institute, index) => {
                   return (
                     <WorkshopCard
+                      key={index}
                       title={dignitariesImages[institute].title}
                       images={dignitariesImages[institute].images}
                     />

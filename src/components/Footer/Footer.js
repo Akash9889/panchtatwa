@@ -14,9 +14,7 @@ export default function Footer() {
       <footer className="footer-main-container">
         <div className="footer-parent-container">
           <div className="page-reference">
-            <Link to="/blogs">Blogs</Link>
             <Link to="/courses">Courses</Link>
-            <Link to="/gallery">Videos</Link>
             <Link to="/donations">Donations</Link>
           </div>
           <img className="flower" src={flowerDivider} alt="" />
