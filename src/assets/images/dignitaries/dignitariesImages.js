@@ -86,15 +86,15 @@ export const dignitariesImages = {
     images: [SonuSood],
   },
   s: {
-    title: "Shooter",
+    title: "Jaspal Singh Rana",
     images: [Shooter],
   },
   p: {
-    title: "Prince",
+    title: "King of Udaipur",
     images: [Prince],
   },
   m: {
-    title: "Minister",
+    title: "Governor of Maharashtra - Bahagat Singh Koshyari",
     images: [Minister],
   },
 };

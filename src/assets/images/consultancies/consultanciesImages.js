@@ -14,7 +14,7 @@ export const consultanciesImages = {
     images: [shah1, shah2],
   },
   bank: {
-    title: "Bank of Baroda",
+    title: "Bank of Baroda (Abu Dhabi)",
     images: [bank1],
   },
 };

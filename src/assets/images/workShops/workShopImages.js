@@ -50,7 +50,7 @@ export const institutesImages = {
     images: [IIAD],
   },
   meraBai: {
-    title: "Merabai Institute of Technology",
+    title: "Meerabai Institute of Technology",
     images: [meraBai],
   },
   ims: {
@@ -86,7 +86,7 @@ export const institutesImages = {
     images: [IX],
   },
   JD: {
-    title: "JD",
+    title: "JD Institute of Fashion Technology",
     images: [JD],
   },
   YMCA: {

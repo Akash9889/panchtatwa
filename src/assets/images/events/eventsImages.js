@@ -33,7 +33,7 @@ export const eventsImages = {
     images: [cevp1, cevp2],
   },
   zd: {
-    title: "Chief Guest at Zindigi Delhi Event",
+    title: "Chief Guest at Zindagi Delhi Event",
     images: [zd1, zd2],
   },
   rc: {
@@ -41,7 +41,7 @@ export const eventsImages = {
     images: [rc1, rc2],
   },
   avrc: {
-    title: "Astro-Vastu Way of Life Workshop in Rotary Club",
+    title: "Astro-Vastu of Life Workshop at Rotary Club",
     images: [avrc1, avrc2],
   },
   lpex: {
