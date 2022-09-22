@@ -90,11 +90,11 @@ export const dignitariesImages = {
     images: [Shooter],
   },
   p: {
-    title: "King of Udaipur",
+    title: "King of Udaipur - Arvind Singh Mewar",
     images: [Prince],
   },
   m: {
-    title: "Governor of Maharashtra - Bahagat Singh Koshyari",
+    title: "Governor of Maharashtra - Bhagat Singh Koshyari",
     images: [Minister],
   },
 };

@@ -76,41 +76,38 @@ export default function Home() {
         <div className="primary-text-conatiner">
           <h1>AIM OF PANCHTATWA</h1>
           <p>
-            The main aim of Panchtatwa is research and re-search in the fields
-            of Vastu and Vedic Astrology and the promotion of Vastu in the
-            application of Interior Designing, Architecture and Town Planning.
+            The aim of Panchtatwa is to do research and re-search in the field of Vastu, Astrology and other Vedic sciences.
           </p>
           <p>
-            We regularly organize workshops, seminars and discussions to
-            increase awareness of Vastu in the country. Indian tradition has
-            always followed the Vastu concept. However a few earlier generations
-            dismissed it as mere superstition. We have a deplorable tendency in
-            our country to not accept anything truly Indian, however beneficial,
-            until it has been accepted in the west. Now that the western world
-            and also the so-called rationalists have started believing in Vastu
-            and Astrology, we Indians have also acknowledged their efficacy.{" "}
+            We conduct classes and organise workshops and seminars to promote vedic wisdom in the country.
+            Panchtatwa trys to propagate, through social media and networking sites, the knowledge on various
+            topics such as what is tithi, the importance of festivals in our sanatan dharma etc.
           </p>
           <p>
-            Vastu is an integral part of Astrology and their science should be
-            understood and followed together to yield full benefit.{" "}
+            Our moto is to combine vedic wisdom with modern values and techniques. Panchtatwa promotes the study of the Vedas,
+            the Upanishads and the Purans and at the same time encourage our students to learn and use modern
+            techniques like Lecher antenna, GDV camera for aura scanning. To further extend this knowledge,
+            Panchtatwa has opened a Sanskrit school in the name of Acharya Amlanand Shastri Sanskrit vidyalaya
+            where we are offering the study of these vedic subjects along with modern subjects such as maths,
+            science, computer etc, to our rishikumars so that they will be well versed in the Vedic subjects as
+            well as the modern subjects/sciences and also will be fully capable of to perform any puja, karamkand
+            and learning about Vedas. Our ashram is in Garhwal Himalayas at Srinagar Garhwal, where we are providing
+            boarding and other learning facilities, free of cost for all the children.
           </p>
           <p>
-            In the field of Astrology our aim is to establish the significance
-            of the Panchaang(Hindu Calender), divisional charts and Muhurta in
-            daily life, so that more people can accrue the benefits of good
-            planetary positions and neutralize the the ill- effects of bad
-            transitions. Muhurta is not only the auspicious time but also the
-            most practical time to start anything new. Life is a balance between
-            fate and freewill. An individual’s Lagna kundali, Yog, and Dasha :
-            present and future, is governed by fate, but to make use of good
-            transit comes under the domain of free will. This is how maximum
-            benefit can be derived from Astrology.
+            Our other main focus is that at one point of time India was called "Sone ki Chidiya" reason being, at that time, Kailash Mansarover,
+            the abode  of Shiva was in the perfect North East of India but now is a part of China. Shiva is the deity of
+            North East. In other words, we can say that our North East is cut off from us  According to vastu, it is a
+            fundamental dosh as one will be deprived of financial opportunities and enlightenment. So it is our political
+            aim to include that area again in India. Yes, it is a very far fetch aim but hope that one day our
+            government will take a step towards it.
           </p>
         </div>
       </div>
       <div className="parent-container alternate">
         <div className="primary-text-conatiner">
           <h1>Ashram</h1>
+
           <p>
             On 13th April 2016, that is the Baisakhi Day, Sri Guruji Manoj K
             Juyal started a Sanskrit school in the name of his beloved reverend
@@ -144,5 +141,7 @@ export default function Home() {
         </div>
       </div>
     </main>
+
+
   );
 }
