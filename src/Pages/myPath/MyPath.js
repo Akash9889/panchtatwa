@@ -34,7 +34,7 @@ export default function MyPath() {
             human comprehension.
           </p>
           <p>
-            SriGuruji Manoj K Juyal started the process of edification of
+            SriGuruji Dr.Manoj K Juyal started the process of edification of
             Astrology and Vastu. Towards this aspiration, he founded in 2004,
             Panchtatwa- The law of Creation, an institute where he generously
             imparts his boundless knowledge.

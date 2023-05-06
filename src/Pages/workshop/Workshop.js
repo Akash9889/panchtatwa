@@ -4,6 +4,8 @@ import {
   institutesImages,
   onlineWS1,
   onlineWS2,
+  onlineWS3,
+  onlineWS4,
   nbtArticles,
 } from "../../assets/images/workShops/workShopImages";
 
@@ -41,7 +43,7 @@ export default function MyJourney() {
       <div className="path-img-text-wrapper">
         <div className="path-text-container">
           <p className="workshop-text">
-            <b style={{ fontSize: "1.5rem" }}>Sri Guruji Manoj K Juyal</b> is a
+            <b style={{ fontSize: "1.5rem" }}>SriGuruji Dr.Manoj K Juyal</b> is a
             visiting faculty member in various premier institutes and
             universities across India.
           </p>
@@ -69,6 +71,8 @@ export default function MyJourney() {
           <div className="online-container">
             <img className="online-image" src={onlineWS1} alt="" />
             <img className="online-image" src={onlineWS2} alt="" />
+            <img className="online-image" src={onlineWS3} alt="" />
+            <img className="online-image" src={onlineWS4} alt="" />
           </div>
           <p style={{ fontSize: "1.5rem", color: "#cd6727" }}>
             His topic of discussions were :

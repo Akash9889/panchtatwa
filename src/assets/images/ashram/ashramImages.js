@@ -8,18 +8,14 @@ const AC4 = require("./AC4.jpeg");
 const AC5 = require("./AC5.jpeg");
 const AC6 = require("./AC6.jpeg");
 const AC7 = require("./AC7.jpeg");
+const AC8 = require("./AC8.jpeg");
+const AC9 = require("./AC9.jpeg");
+const AC10 = require("./AC10.jpeg");
+
 
 export const ashramGalleryImages = {
   amity: {
     title: "",
-    images: [AC1, AC2, AC3, AC4, AC5, AC6, AC7],
+    images: [AC1, AC2, AC3, AC4, AC5, AC6, AC7, AC8, AC9, AC10],
   },
-  // delhiSchoolOfArch: {
-  //   title: "Delhi School of Architecture and Design",
-  //   images: [DSAD1, DSAD2, DSAD3],
-  // },
-  // ahimsa: {
-  //   title: "Ahimsa Women's Polytechnic",
-  //   images: [AWP1, AWP2, AWP2],
-  // },
 };

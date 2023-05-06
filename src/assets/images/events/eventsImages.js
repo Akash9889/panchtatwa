@@ -14,8 +14,16 @@ const avrc1 = require("./avrc1.jpeg");
 const avrc2 = require("./avrc2.jpeg");
 const lpex1 = require("./lpex1.jpeg");
 const lpex2 = require("./lpex2.jpeg");
+const csu1 = require("./csu1.jpeg");
+const csu2 = require("./csu2.jpeg");
+const avs1 = require("./avs1.jpeg");
+
 
 export const eventsImages = {
+  avs: {
+    title: "Astro-vastu session, Army cantt. Jalandhar",
+    images: [avs1, ],
+  },
   memr: {
     title: "My Earth My Responsibility in Singapore",
     images: [memr1, memr2],
@@ -47,5 +55,9 @@ export const eventsImages = {
   lpex: {
     title: "Life Positive Expo 2018",
     images: [lpex1, lpex2],
+  },
+  csu: {
+    title: "International Workshop, CSU, Devaprayag Campus",
+    images: [csu1, csu2],
   },
 };

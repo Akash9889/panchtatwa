@@ -23,7 +23,7 @@ export default function VastuPurush() {
         <div className="path-text-container">
           <p>
             <b style={{ fontSize: "1.5rem" }}>
-              SriGuruji Manoj K Juyal constructed the world's first Vastu Purush
+              SriGuruji Dr.Manoj K Juyal constructed the world's first Vastu Purush
               temple at Panchtatwa's head office, New Delhi.
             </b>
           </p>

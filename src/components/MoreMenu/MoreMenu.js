@@ -73,7 +73,7 @@ export function SriGurujiAccordian({
         className={showSriGurujiAccordian ? "active" : ""}
         style={{ fontSize: "2rem", cursor: "pointer" }}
       >
-        Sri Guruji
+        SriGuruji
       </span>
       <CSSTransition
         in={showSriGurujiAccordian}

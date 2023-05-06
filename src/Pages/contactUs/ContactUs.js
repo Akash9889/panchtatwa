@@ -18,7 +18,7 @@ export default function ContactUs() {
         }}
         src={src}
         width="600"
-        title="Panchtatwa-The Law of Creation (Guruji Manoj k Juyal)"
+        title="Panchtatwa-The Law of Creation (SriGuruji Dr.Manoj k Juyal)"
         height="450"
         allowFullScreen
         loading="lazy"
@@ -42,7 +42,7 @@ export default function ContactUs() {
                 <span>
                   Panchtatwa - The Law of Creation
                   <br /> Vatika Farms
-                  <br /> Farm no - 89, 90 <br />
+                  <br /> Farm no - 88-90 <br />
                   Sector - 131
                   <br /> Behind Jaypee Wishtown Noida (UP) - 201301
                   <br />

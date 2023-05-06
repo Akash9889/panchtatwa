@@ -109,7 +109,7 @@ export default function Home() {
           <h1>Ashram</h1>
 
           <p>
-            On 13th April 2016, that is the Baisakhi Day, Sri Guruji Manoj K
+            On 13th April 2016, that is the Baisakhi Day, SriGuruji Dr.Manoj K
             Juyal started a Sanskrit school in the name of his beloved reverend
             Sri Guruji Acharya Amlanand Shastri. Where he combines the world of
             Eastern knowledge : Vedas, Puranas , Sanskrit language to the
@@ -125,7 +125,7 @@ export default function Home() {
         <div className="member-conatiner">
           <div className="member-image-container">
             <img className="member-image" src={Guruji} alt="" />
-            <div className="member-name">Sri Guruji Manoj K Juyal</div>
+            <div className="member-name">SriGuruji Dr.Manoj K Juyal</div>
             <span className="member-designation">Patron</span>
           </div>
           <div className="member-image-container">
@@ -136,7 +136,8 @@ export default function Home() {
           <div className="member-image-container">
             <img className="member-image" src={RajeshNarainGupta} alt="" />
             <div className="member-name">Rajesh Narain Gupta</div>
-            <span className="member-designation">Chairmen</span>
+            <span className="member-designation">Non-Executive Chairman</span>
+            <span className="member-designation">Advisory Board</span>
           </div>
         </div>
       </div>

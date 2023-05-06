@@ -14,8 +14,8 @@ export function Carousel({ title, images, customImageStyle }) {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
@@ -100,7 +100,7 @@ export default function Ashram() {
         </div>
         <div className="path-text-container">
           <p>
-            - The Panchtatwa Ashram under the patronage of SriGuruji Manoj K
+            - The Panchtatwa Ashram under the patronage of SriGuruji Dr.Manoj K
             Juyal is located in the village of Balori, in the district of Pauri
             in Uttarakhand.
           </p>

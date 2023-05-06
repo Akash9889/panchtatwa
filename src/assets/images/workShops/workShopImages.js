@@ -17,6 +17,9 @@ const YMCA = require("./YMCA.jpeg");
 const INSD_2 = require("./INSD_2.jpeg");
 export const onlineWS1 = require("./onlineWS1.jpeg");
 export const onlineWS2 = require("./onlineWS2.jpeg");
+export const onlineWS3 = require("./onlineWS3.jpeg");
+export const onlineWS4 = require("./onlineWS4.jpeg");
+
 const article1 = require("./nbtArticles/article1.jpg");
 const article2 = require("./nbtArticles/article2.jpg");
 const article3 = require("./nbtArticles/article3.jpg");
