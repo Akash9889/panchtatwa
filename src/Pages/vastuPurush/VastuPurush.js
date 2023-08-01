@@ -18,7 +18,7 @@ export default function VastuPurush() {
       <div className="path-img-text-wrapper">
         {" "}
         <div className="path-img-container">
-          <img className="path-image-1" src={vpPoster} alt="" />
+          <img  loading="lazy" className="path-image-1" src={vpPoster} alt="" />
         </div>
         <div className="path-text-container">
           <p>

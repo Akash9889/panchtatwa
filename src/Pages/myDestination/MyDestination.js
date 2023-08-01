@@ -11,7 +11,7 @@ export default function MyDestination() {
       <div className="path-img-text-wrapper">
         {" "}
         <div className="path-img-container">
-          <img className="path-image-1" src={myDestination} alt="" />
+          <img  loading="lazy" className="path-image-1" src={myDestination} alt="" />
         </div>
         <div className="path-text-container">
           <p>

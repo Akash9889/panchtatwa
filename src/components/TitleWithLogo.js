@@ -6,7 +6,7 @@ export default function TitleWithLogo() {
   const history = useNavigate();
   return (
     <div className="App-logo-container" onClick={() => history("/")}>
-      <img className="App-logo" src={logo} alt="" />
+      <img loading="lazy" className="App-logo" src={logo} alt="" />
     </div>
   );
 }

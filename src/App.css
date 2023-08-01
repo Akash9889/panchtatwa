@@ -5,11 +5,43 @@
 * {
   font-size: 62.5%;
   box-sizing: border-box;
+  -webkit-user-select: none;
   user-select: none;
   --footer-padding: 100px;
   font-family: 'Joan', serif;
   scroll-behavior: smooth;
   word-spacing: 5px;
+}
+
+.loader-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .loader-container {
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+#loading{
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  mix-blend-mode: color-burn;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .App-logo-container {
@@ -43,8 +75,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 88%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0 100%);
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1) 0%,
@@ -56,8 +88,8 @@
 .bottom {
   margin: 0px;
   padding-bottom:50px;
-  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
   -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
 }
 
 .gradiant-heading {
@@ -127,8 +159,8 @@
   width: 90%;
   padding: 140px 0px;
   margin: 20px;
-  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
   -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1) 0%,
@@ -140,8 +172,8 @@
   justify-content: center;
 }
 .alternate {
-  clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
+  clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   margin-top: -50px;
   background-image: linear-gradient(
     to bottom,
@@ -230,6 +262,231 @@ p {
   padding-top: 5px;
 }
 
+.path-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fcfcfc;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.path-title {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: left;
+  color: #cd6727;
+}
+
+.path-img-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.path-img-container {
+  width: 90%;
+  margin: 20px 0px;
+}
+
+.path-image-1 {
+  background-size: cover;
+  width: 100%;
+  box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+}
+
+.path-text-container {
+  width: 90%;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #cd6727;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  color: #cd6727;
+}
+
+.classes-card {
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.classes-image-container {
+  width: 100%;
+  box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+  border-radius: 5px;
+}
+
+.classes-image{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.classes-description-container {
+  width: 85%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.classes-description {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #cd6727;
+  
+}  
+
+.events-container{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-box{
+  display: flex;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0px 30px 10px;
+}
+
+.event-images-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.event-title{
+  width:100%;
+  font-size: 2rem;
+  color: #cd6727;
+
+}
+
+.event-images{
+  width: 100%;
+  margin: 20px 0px;
+  box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+  border-radius: 5px;
+}
+
+.books-main-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fef9d7 0%, #fdfcfc 100%);
+}
+
+.book-card-container {
+  display: grid;
+  width: 90%;
+  margin: 20px 0px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px 40px;
+  justify-content: center;
+}
+
+.book-card {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 5px 10px rgb(0 0 0 / 22%);
+  position: relative;
+}
+
+.book-image {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.slick-slide img {
+  padding: 0px calc((100% - 190px) / 2);
+}
+
+.book-description-container {
+  width: 85%;
+  padding: 50px 0px;
+}
+
+.book-description {
+  font-size: 1.5rem;
+  color: #28231e;
+}
+
+.buynow-link {
+  display: flex;
+  position: absolute;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #cd6727;
+  bottom: 5%;
+}
+
+.amazon-logo {
+  width: 100px;
+  padding-left: 5px;
+}
+
+
+@media screen and (min-width: 60em) {
+  .event-box{
+      flex-direction: column;
+  }
+
+  .event-title{
+     font-size: 3rem;
+  }
+
+  .event-images-container{
+      justify-content: space-around;
+      flex-direction: row;
+      width:90%
+  }
+
+  .event-images{
+      width: 40%;
+      margin: 20px;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .path-img-text-wrapper {
+    flex-direction: row;
+    width: 90%;
+  }
+  .path-img-container {
+    margin-right: 20px;
+    display: flex;
+    width: 50%;
+    align-items: center;
+  }
+  .path-image-1 {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 80em) {
   .title-container span {
     font-size: 3rem;
@@ -267,14 +524,14 @@ p {
   }
   .parent-container {
     flex-direction: column;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     height: max-content;
     padding: 20px 0%;
   }
   .alternate {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     margin-top: 40px;
   }
   .primary-text-conatiner {

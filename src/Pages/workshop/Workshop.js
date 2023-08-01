@@ -18,6 +18,7 @@ export function WorkshopCard({ title, images, customImageStyle }) {
             <div key={index} className="workshop-card">
               <div className="workshop-title">{title}</div>
               <img
+               loading="lazy"
                 className="workshop-image"
                 src={image}
                 alt={`${title} workshop`}
@@ -69,10 +70,10 @@ export default function MyJourney() {
             with colleges like Jims and with NBT Rangmanch (newspaper)
           </p>
           <div className="online-container">
-            <img className="online-image" src={onlineWS1} alt="" />
-            <img className="online-image" src={onlineWS2} alt="" />
-            <img className="online-image" src={onlineWS3} alt="" />
-            <img className="online-image" src={onlineWS4} alt="" />
+            <img  loading="lazy" className="online-image" src={onlineWS1} alt="" />
+            <img  loading="lazy" className="online-image" src={onlineWS2} alt="" />
+            <img  loading="lazy" className="online-image" src={onlineWS3} alt="" />
+            <img  loading="lazy" className="online-image" src={onlineWS4} alt="" />
           </div>
           <p style={{ fontSize: "1.5rem", color: "#cd6727" }}>
             His topic of discussions were :
@@ -82,6 +83,7 @@ export default function MyJourney() {
               nbtArticles.length &&
               nbtArticles.map((article, index) => (
                 <img
+                  loading="lazy"
                   key={index}
                   className="nbt-articles-image"
                   src={article}

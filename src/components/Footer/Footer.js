@@ -17,7 +17,7 @@ export default function Footer() {
             <Link to="/courses">Courses</Link>
             <Link to="/donations">Donations</Link>
           </div>
-          <img className="flower" src={flowerDivider} alt="" />
+          <img  loading="lazy" className="flower" src={flowerDivider} alt="" />
           <div className="contact-us-container">
             <h3>Contact us</h3>
             <span>
@@ -44,7 +44,7 @@ export default function Footer() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <img className="flower" src={flowerDivider} alt="" />
+          <img  loading="lazy" className="flower" src={flowerDivider} alt="" />
           <div className="social-media-plugins-conatiner">
             <h3>Find us on social media </h3>
             <div className="icon-container">
@@ -53,28 +53,28 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={facebook} alt="Go to facebook page" />
+                <img  loading="lazy" src={facebook} alt="Go to facebook page" />
               </a>
               <a
                 href="https://youtube.com/c/SriGuruJiMANOJKJUYAL"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={youtube} alt="Go to youtube" />
+                <img  loading="lazy" src={youtube} alt="Go to youtube" />
               </a>
               <a
                 href="https://twitter.com/vastumanoj?t=ccDiwsGIsLEXIH21Ui4-3w&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={twitter} alt="Go to twitter" />
+                <img  loading="lazy" src={twitter} alt="Go to twitter" />
               </a>
               <a
                 href="https://instagram.com/srigurujimanojkjuyal?igshid=YmMyMTA2M2Y="
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={instagram} alt="Go to instagram" />
+                <img  loading="lazy" src={instagram} alt="Go to instagram" />
               </a>
             </div>
           </div>

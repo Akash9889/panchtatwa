@@ -50,6 +50,7 @@ export default function Card({ title, images, customImageStyle }) {
                   className={
                     customImageStyle ? customImageStyle : "card-image-1"
                   }
+                  loading="lazy"
                   src={image}
                   alt=""
                 />

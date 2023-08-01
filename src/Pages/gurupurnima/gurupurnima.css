@@ -44,6 +44,8 @@
 
     .gurupurnima-title{
        font-size: 3rem;
+       width: 90%;
+       text-align: left;
     }
 
     .gurupurnima-images-container{

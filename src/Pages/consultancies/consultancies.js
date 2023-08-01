@@ -10,6 +10,7 @@ function EventsBox({ title, images, customImageStyle }) {
           images?.map((image, index) => {
             return (
               <img
+               loading="lazy"
                 key={index}
                 className="event-images"
                 src={image}

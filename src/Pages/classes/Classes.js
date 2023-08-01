@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./classes.css";
 import { classesImages } from "../../assets/images/classes/classesImages";
 
 function ClassesCard({ course }) {
@@ -8,6 +7,7 @@ function ClassesCard({ course }) {
       <div>
         <img
           className="classes-image"
+          loading="lazy"
           style={{ width: "100%" }}
           src={image}
           alt=""

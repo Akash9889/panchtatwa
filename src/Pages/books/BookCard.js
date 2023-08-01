@@ -19,7 +19,7 @@ export default function BookCard({ book }) {
         {React.Children.toArray(
           book?.images?.map((image, index) => (
             <div key={index}>
-              <img style={{ height: "300px" }} src={image} alt="" />
+              <img  loading="lazy" style={{ height: "300px" }} src={image} alt="" />
             </div>
           ))
         )}
@@ -40,7 +40,7 @@ export default function BookCard({ book }) {
         rel="noreferrer"
       >
         Buy now at
-        <img className="amazon-logo" src={amazonLogo} alt="buy now at amazon" />
+        <img  loading="lazy" className="amazon-logo" src={amazonLogo} alt="buy now at amazon" />
       </a>
     </div>
   );

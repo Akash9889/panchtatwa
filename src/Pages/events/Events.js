@@ -1,5 +1,4 @@
 import React from "react";
-import "./events.css";
 import { eventsImages } from "../../assets/images/events/eventsImages";
 
 function EventsBox({ title, images, customImageStyle }) {
@@ -11,6 +10,7 @@ function EventsBox({ title, images, customImageStyle }) {
           images?.map((image, index) => {
             return (
               <img
+               loading="lazy"
                 key={index}
                 className="event-images"
                 src={image}

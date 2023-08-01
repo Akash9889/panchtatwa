@@ -1,6 +1,5 @@
 import React from "react";
-import myPath from "../../assets/images/myPath.jpg";
-import "./mypath.css";
+import myPath from "../../assets/images/myPath.jpg"
 
 export default function MyPath() {
   React.useEffect(() => {
@@ -12,7 +11,7 @@ export default function MyPath() {
       <div className="path-img-text-wrapper">
         {" "}
         <div className="path-img-container">
-          <img className="path-image-1" src={myPath} alt="" />
+          <img  loading="lazy" className="path-image-1" src={myPath} alt="" />
         </div>
         <div className="path-text-container">
           <h1 className="heading">PANCHTATWA - THE LAW OF CREATION</h1>

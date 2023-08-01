@@ -31,7 +31,7 @@ export default function Home() {
             onClick={() => handleNavigation("/journey")}
           >
             <img
-              className="gradiant-img"
+              className="gradiant-img" loading="lazy"
               // style={{ width: "unset" }}
               src={myJourney}
               alt=""
@@ -41,7 +41,7 @@ export default function Home() {
               onClick={() => handleNavigation("/journey")}
             >
               <span>Journey</span>
-              <img className="right-arrow" src={rightArrow} alt="right arrow" />
+              <img className="right-arrow" loading="lazy" src={rightArrow} alt="right arrow" />
             </div>
           </div>
           <div
@@ -51,27 +51,27 @@ export default function Home() {
             <img className="gradiant-img center-image" src={myPath} alt="" />
             <div className="title-container">
               <span>Path</span>
-              <img className="right-arrow" src={rightArrow} alt="right arrow" />
+              <img className="right-arrow" loading="lazy"  src={rightArrow} alt="right arrow" />
             </div>
           </div>
           <div
             className="gradiant-image-container"
             onClick={() => handleNavigation("/destination")}
           >
-            <img className="gradiant-img" src={myDestination} alt="" />
+            <img className="gradiant-img" loading="lazy" src={myDestination} alt="" />
             <div
               className="title-container"
               onClick={() => handleNavigation("/mission")}
             >
               <span>Destination</span>
-              <img className="right-arrow" src={rightArrow} alt="right arrow" />
+              <img className="right-arrow" loading="lazy" src={rightArrow} alt="right arrow" />
             </div>
           </div>
         </div>
       </div>
       <div className="parent-container">
         <div className="primary-image-conatiner">
-          <img src={Office} alt="" />
+          <img src={Office} loading="lazy" alt="" />
         </div>
         <div className="primary-text-conatiner">
           <h1>AIM OF PANCHTATWA</h1>
@@ -118,23 +118,23 @@ export default function Home() {
           </p>
         </div>
         <div className="primary-image-conatiner">
-          <img src={ashram} alt="" />
+          <img src={ashram} loading="lazy" alt="" />
         </div>
       </div>
       <div className="gradiant-container bottom">
         <div className="member-conatiner">
           <div className="member-image-container">
-            <img className="member-image" src={Guruji} alt="" />
+            <img className="member-image" loading="lazy" src={Guruji} alt="" />
             <div className="member-name">SriGuruji Dr.Manoj K Juyal</div>
             <span className="member-designation">Patron</span>
           </div>
           <div className="member-image-container">
-            <img className="member-image" src={Priyanka} alt="" />
+            <img className="member-image" loading="lazy" src={Priyanka} alt="" />
             <div className="member-name">Priyanka Sharma Chugh</div>
             <span className="member-designation">President</span>
           </div>
           <div className="member-image-container">
-            <img className="member-image" src={RajeshNarainGupta} alt="" />
+            <img className="member-image" loading="lazy" src={RajeshNarainGupta} alt="" />
             <div className="member-name">Rajesh Narain Gupta</div>
             <span className="member-designation">Non-Executive Chairman</span>
             <span className="member-designation">Advisory Board</span>
