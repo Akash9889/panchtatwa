@@ -13,7 +13,7 @@ export default function NavBar() {
       <TitleWithLogo />
       <nav>
         <div className="dropdown">
-          <button className="dropbtn">Sri Guruji</button>
+          <button className="dropbtn">SriGuruji</button>
           <div className="dropdown-content">
             <NavLink to="./journey" className="hover-menu-item">
               My Journey

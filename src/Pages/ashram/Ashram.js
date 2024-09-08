@@ -1,7 +1,7 @@
 import React from "react";
 import "./ashram.css";
 import {
-  ashramMain,
+  ashramPage1, ashramPage2,
   ashramPoster,
   ashramGalleryImages,
 } from "../../assets/images/ashram/ashramImages";
@@ -81,7 +81,9 @@ export function Carousel({ title, images, customImageStyle }) {
     <div style={{ paddingBottom: "50px" }}>
       {title && (
         <div>
-          <p className="card-title">{title}</p>
+          <p className="card-title">
+            <span className="path-title">{title}</span>
+          </p>
         </div>
       )}
       <div>{renderCarousel(images)}</div>
@@ -96,8 +98,13 @@ export default function Ashram() {
       <span className="path-title">Ashram -</span>
       <div className="path-img-text-wrapper">
         {" "}
-        <div className="path-img-container">
-          <img  loading="lazy" className="path-image-1" src={ashramMain} alt="" />
+        <div style={{ display: "flex", justifyContent: 'center', width: '90%', flexDirection: 'column' }}>
+          <div className="ashram-img-container">
+            <img loading="lazy" className="path-image-1" src={ashramPage1} alt="" style={{ borderRadius: '5px' }} />
+          </div>
+          <div className="ashram-img-container">
+            <img loading="lazy" className="path-image-1" src={ashramPage2} alt="" style={{ borderRadius: '5px' }} />
+          </div>
         </div>
         <div className="path-text-container">
           <p>
@@ -144,21 +151,21 @@ export default function Ashram() {
           </p>
         </div>
       </div>
-      <img  loading="lazy" className="ashram-poster" src={ashramPoster} alt="" />
+      <img loading="lazy" className="ashram-poster" src={ashramPoster} alt="" />
 
       <div className="ashram-carousel">
         {React.Children.toArray(
           ashramImages?.length &&
-            ashramImages.map((institute, index) => {
-              return (
-                <Carousel
-                  key={index}
-                  title={ashramGalleryImages[institute].title}
-                  images={ashramGalleryImages[institute].images}
-                  customImageStyle="ashram-carousel-image"
-                />
-              );
-            })
+          ashramImages.map((institute, index) => {
+            return (
+              <Carousel
+                key={index}
+                title={ashramGalleryImages[institute].title}
+                images={ashramGalleryImages[institute].images}
+                customImageStyle="ashram-carousel-image"
+              />
+            );
+          })
         )}
       </div>
     </div>

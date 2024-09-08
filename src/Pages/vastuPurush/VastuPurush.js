@@ -18,13 +18,13 @@ export default function VastuPurush() {
       <div className="path-img-text-wrapper">
         {" "}
         <div className="path-img-container">
-          <img  loading="lazy" className="path-image-1" src={vpPoster} alt="" />
+          <img loading="lazy" className="path-image-1" src={vpPoster} alt="" />
         </div>
         <div className="path-text-container">
           <p>
             <b style={{ fontSize: "1.5rem" }}>
               SriGuruji Dr.Manoj K Juyal constructed the world's first Vastu Purush
-              temple at Panchtatwa's head office, New Delhi.
+              temple at Panchtatwa's head office, Noida.
             </b>
           </p>
           <p>

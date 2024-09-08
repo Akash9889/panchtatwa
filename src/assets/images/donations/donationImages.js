@@ -13,6 +13,7 @@ const gauDaanInside4 = require("./gauDaanInside4.jpg");
 const nitiyaKarmPoojaCover = require("./nitiyaKarmPoojaCover.jpeg");
 const nitiyaKarmPoojaInside1 = require("./nitiyaKarmPoojaInside1.jpeg");
 const nitiyaKarmPoojaInside2 = require("./nitiyaKarmPoojaInside2.jpeg");
+const nitiyaKarmPoojaInside4 = require("./nitiyaKarmPoojaInside4.jpeg");
 
 const kanyaDaanCover = require("./kanyaDaanCover.JPG");
 const kanyaDaanInside1 = require("./kanyaDaanInside1.JPG");
@@ -38,6 +39,7 @@ export const donationImages = {
   nitiyaKarmPoojaCover,
   nitiyaKarmPoojaInside1,
   nitiyaKarmPoojaInside2,
+  nitiyaKarmPoojaInside4,
 
   kanyaDaanCover,
   kanyaDaanInside1,

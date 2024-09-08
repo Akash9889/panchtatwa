@@ -30,15 +30,15 @@ export default function Gurupurnima() {
     <div className="gurupurnima-container">
       {React.Children.toArray(
         gurupurnimasArray?.length &&
-          gurupurnimasArray.map((institute, index) => {
-            return (
-              <GurupurnimaBox
-                key={index}
-                title={gurupurnimaImages[institute].title}
-                images={gurupurnimaImages[institute].images}
-              />
-            );
-          })
+        gurupurnimasArray.map((institute, index) => {
+          return (
+            <GurupurnimaBox
+              key={index}
+              title={gurupurnimaImages[institute].title}
+              images={gurupurnimaImages[institute].images}
+            />
+          );
+        })
       )}
     </div>
   );

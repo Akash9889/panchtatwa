@@ -18,7 +18,7 @@ export function WorkshopCard({ title, images, customImageStyle }) {
             <div key={index} className="workshop-card">
               <div className="workshop-title">{title}</div>
               <img
-               loading="lazy"
+                loading="lazy"
                 className="workshop-image"
                 src={image}
                 alt={`${title} workshop`}
@@ -51,15 +51,15 @@ export default function MyJourney() {
           <div className="workshop-card-container">
             {React.Children.toArray(
               institutesArray?.length &&
-                institutesArray.map((institute, index) => {
-                  return (
-                    <WorkshopCard
-                      key={index}
-                      title={institutesImages[institute].title}
-                      images={institutesImages[institute].images}
-                    />
-                  );
-                })
+              institutesArray.map((institute, index) => {
+                return (
+                  <WorkshopCard
+                    key={index}
+                    title={institutesImages[institute].title}
+                    images={institutesImages[institute].images}
+                  />
+                );
+              })
             )}
           </div>
           <div className="path-title">Online Workshops -</div>
@@ -70,10 +70,10 @@ export default function MyJourney() {
             with colleges like Jims and with NBT Rangmanch (newspaper)
           </p>
           <div className="online-container">
-            <img  loading="lazy" className="online-image" src={onlineWS1} alt="" />
-            <img  loading="lazy" className="online-image" src={onlineWS2} alt="" />
-            <img  loading="lazy" className="online-image" src={onlineWS3} alt="" />
-            <img  loading="lazy" className="online-image" src={onlineWS4} alt="" />
+            <img loading="lazy" className="online-image" src={onlineWS1} alt="" />
+            <img loading="lazy" className="online-image" src={onlineWS2} alt="" />
+            <img loading="lazy" className="online-image" src={onlineWS3} alt="" />
+            <img loading="lazy" className="online-image" src={onlineWS4} alt="" />
           </div>
           <p style={{ fontSize: "1.5rem", color: "#cd6727" }}>
             His topic of discussions were :

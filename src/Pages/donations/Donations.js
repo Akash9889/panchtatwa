@@ -100,6 +100,7 @@ export default function Donations() {
         <div className="donations-image">
           {renderCarousel([
             donationImages?.nitiyaKarmPoojaCover,
+            donationImages?.nitiyaKarmPoojaInside4,
             donationImages?.nitiyaKarmPoojaInside1,
             donationImages?.nitiyaKarmPoojaInside2,
           ])}

@@ -1,5 +1,7 @@
 export const ashramMain = require("./ashramMain.jpeg");
 export const ashramPoster = require("./ashramPoster.jpg");
+export const ashramPage1 = require("./ashramPage1.jpeg");
+export const ashramPage2 = require("./ashramPage2.jpeg");
 
 const AC1 = require("./AC1.jpeg");
 const AC2 = require("./AC2.jpeg");

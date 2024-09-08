@@ -1,31 +1,47 @@
-.ashram-poster{
-    width:90%;
+.ashram-poster {
+    width: 90%;
     margin-top: 50px;
 }
 
-.ashram-carousel{
-    width:90%;
+.ashram-carousel {
+    width: 90%;
     margin-top: 50px;
 }
 
-.carousel-image-container{
-    width:90%;
+.carousel-image-container {
+    width: 90%;
 }
 .ashram-carousel-image {
-    padding:0px !important;
+    padding: 0px !important;
     height: 400px;
-    width:inherit;
+    width: inherit;
 }
-.ashram-carousel-title{
+.ashram-carousel-title {
     font-size: 1.5rem;
     color: #cd6727;
 }
 
+.ashram-img-container {
+    justify-content: center;
+    margin-right: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
 
-
-@media screen and (min-width:60em) {
+@media screen and (min-width: 60em) {
     .ashram-carousel-image {
-        width:100%;
-        padding:20px !important;
+        width: 100%;
+        padding: 20px !important;
+    }
+
+    .ashram-img-container {
+        justify-content: center;
+        margin-right: 20px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        border-radius: 5px;
     }
 }

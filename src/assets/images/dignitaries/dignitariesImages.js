@@ -18,6 +18,7 @@ const SDMishra = require("./digi (20).jpeg");
 const DeepaMalik = require("./digi (21).jpeg");
 const AdarshGill = require("./digi (22).jpeg");
 const NirmalSethia = require("./digi23.jpeg");
+const AjayVeerSinghSDMHaridwar = require("./digi24.jpeg");
 
 export const dignitariesImages = {
   satru: {
@@ -102,5 +103,9 @@ export const dignitariesImages = {
     title: "Governor of Maharashtra - Bhagat Singh Koshyari",
     images: [Minister],
   },
-  
+  sdm: {
+    title: "SDM-Haridwar - Ajay Veer Singh",
+    images: [AjayVeerSinghSDMHaridwar],
+  },
+
 };

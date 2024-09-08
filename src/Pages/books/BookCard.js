@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import amazonLogo from "../../assets/images/amazonLogo.png";
+//import amazonLogo from "../../assets/images/amazonLogo.png";
 
 export default function BookCard({ book }) {
   const settings = {
@@ -19,7 +19,7 @@ export default function BookCard({ book }) {
         {React.Children.toArray(
           book?.images?.map((image, index) => (
             <div key={index}>
-              <img  loading="lazy" style={{ height: "300px" }} src={image} alt="" />
+              <img loading="lazy" style={{ height: "300px" }} src={image} alt="" />
             </div>
           ))
         )}
@@ -33,7 +33,7 @@ export default function BookCard({ book }) {
         <p className="book-description">{book?.description}</p>
       </div>
 
-      <a
+      {/* <a
         className="buynow-link"
         href={book.buyLink}
         target="_blank"
@@ -41,7 +41,7 @@ export default function BookCard({ book }) {
       >
         Buy now at
         <img  loading="lazy" className="amazon-logo" src={amazonLogo} alt="buy now at amazon" />
-      </a>
+      </a> */}
     </div>
   );
 }
