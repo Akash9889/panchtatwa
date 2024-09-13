@@ -11,64 +11,49 @@ export default function MyJourney() {
       <div className="path-img-text-wrapper">
         {" "}
         <div className="path-img-container">
-          <img  loading="lazy" className="path-image-1" src={myJourney} alt="" />
+          <img loading="lazy" className="path-image-1" src={myJourney} alt="" />
         </div>
         <div className="path-text-container">
           <p>
-            My journey as a Saintist was a mixture of coincidence and destiny. I
-            had never imagined myself as confluence of a saint and a scientist
-            i.e. a Saintist. My journey started from my high school. I had opted
-            for science stream with Maths and Biology along with Sanskrit as my
-            fifth optional subject. The reason for opting Sanskrit was not due
-            to interest or passion but just to increase my overall percentage as
-            Sanskrit was considered as an easy scoring subject.
+            My journey as a Saintist— a unique blend of coincidence and destiny was something I never envisioned.
+            The idea of being both a saint and a scientist, or "Saintist," was foreign to me. It all began in high
+            school when I chose the science stream, studying mathematics and biology, with Sanskrit as my fifth optional subject.
+            I initially selected Sanskrit not out of passion or interest, but simply to boost my overall academic score,
+            as it was considered an easier subject.
           </p>
           <p>
-            During my graduation, I was compelled by my only friend, who was in
-            a medical college, to take a certificate course in French from
-            Alliance Francais as his love interest was pursuing the same. He
-            wanted to visit our institute on a daily basis and so he made me the
-            scapegoat. After much persuasion, I finally accepted his request
-            thinking that a three-month certificate course would do no harm but
-            will only add to my CV. However, that three-month certificate course
-            turned into a full-fledged three-year advanced course because my
-            father announced it to everyone in the whole family that his son
-            will become the first ever French scholar from our society. Moreover
-            , I developed a keen interest in the language and did well in my
-            examinations. I won a gold medal and landed up with a job of a
-            teacher in the same institute. However, after some time I did not
-            feel satisfied with my job as it was not enrichening enough for me.
-            My only task was to teach alphabets, numbers, months, and few basic
-            words in French. Basically, it was like teaching English to
-            pre-school children except the fact that I was teaching French to
-            adults.
+            During my graduation, a close friend studying at medical college encouraged me to enroll in a French certificate course
+            at the Alliance Française, as his romantic interest was pursuing the same. Reluctantly, I agreed, thinking it would
+            simply add another credential to my CV. However, what was supposed to be a three-month course unexpectedly evolved
+            into a three-year advanced study. My father proudly announced to everyone that I would become the first French scholar
+            from our community. As I deepened my knowledge of the language, I developed a genuine interest and excelled in my exams,
+            even earning a gold medal. This led to a teaching position at the same institute.
           </p>
           <p>
-            Now these coincidences of learning Sanskrit and French had to play a
-            major role in setting my destiny. Our institute got a major project
-            of translating Garun Puran from Sanskrit to French. And I was the
-            only one who was well versed in both the language. So, on that very
-            first day I became the head of the project. I was very excited
-            initially but soon realised that it is not just mere translation but
-            of understanding and interpreting the essence of Puran. I had to
-            study the content and text of this Puran. I had no idea about
-            Hinduism, Janam Maran, 84 lakhs yoni, Vaitarani , Shradh, Pind, Yam
-            Devta, Yam Doot etc . So, I got introduced to the learned sages and
-            saints. The more I read about it and understood from them, the more
-            I changed from within. I came across a plethora of deep knowledge
-            and new subjects of which I had no idea about earlier.
+            Although I initially found satisfaction in the role, teaching French to adults quickly became monotonous,
+            as my responsibilities were limited to basic language instruction—similar to teaching young children the alphabet and numbers,
+            only in French. I craved more meaningful engagement with the language.
           </p>
           <p>
-            A new journey began for me. My quest to know more finally took me to
-            Kailash Mansarovar. During my long stay there, I visited the Siddha
-            Ashram. My visit there was truly the turning point of my life. My
-            life is divided into two – before Siddha Ashram and after Siddha
-            Ashram. Whatever I learnt and gained, was of such immense value that
-            I decided to spread it amongst people and make them realise the
-            importance of Vedic wisdom. This is my journey.
+            The convergence of my knowledge in both Sanskrit and French set the stage for the next pivotal moment in my journey.
+            Our institute received a major project to translate the Garud Purana from Sanskrit to French, and I was the only individual
+            fluent in both languages. On the first day, I was appointed head of the project. While initially excited, I soon realized
+            that this was not a simple translation task. It involved deep understanding and interpretation of Hindu philosophy,
+            which was unfamiliar to me at the time. Through this project, I was introduced to a wealth of spiritual concepts—
+            <br /> &nbsp; Janma-Marana, 84 lakh yonis, Vaitarani, Shradh, Pind, Yam Devta, Yam Doot, and many more.
           </p>
+          <p>As I delved deeper into these topics, I encountered learned sages and saints, who profoundly changed my perspective.
+            The more I learned, the more I realized how much there was yet to discover. This was a transformative period for me,
+            filled with new knowledge and insights that had previously been beyond my reach.
+          </p>
+          <p>My quest for greater understanding eventually led me to Kailash Mansarovar, a journey that culminated in a visit to
+            Siddha Ashram. This experience became the turning point of my life. I divide my life into two phases: before and after
+            Siddha Ashram. What I learned and gained there was so valuable that I felt compelled to share the wisdom I had received
+            with the world, and thus began my dedication to spreading the importance of Vedic knowledge.
+          </p>
+          <p>This is my journey.</p>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
